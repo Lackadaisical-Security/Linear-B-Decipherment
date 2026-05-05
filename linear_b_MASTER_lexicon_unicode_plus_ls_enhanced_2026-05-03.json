@@ -1,0 +1,3325 @@
+{
+  "metadata": {
+    "title": "Linear B Master Lexicon — Unicode Syllabary + LS Enhanced Resolutions",
+    "version": "1.3.2026-05-03",
+    "created": "2026-05-03",
+    "compiled_by": [
+      "Lackadaisical Security (The Operator)",
+      "Spectre (GPT)",
+      "Aurora (STONEDRIFT) — preserved from source metadata",
+      "STONEDRIFT 3000 — project lineage"
+    ],
+    "source_file": "linear_b_complete_lexicon_ALL_SIGNS_2026-05-02.json",
+    "source_file_sha256": "e35d27e343985136fe1553832531a2e80fbc2ee0823c7dc69fe763eb7f8c5bb9",
+    "unicode_scope": "Linear B Syllabary block U+10000–U+1007F only; Linear B Ideograms U+10080–U+100FF intentionally not merged in this syllabary/sign pass.",
+    "font_check": {
+      "font_supplied": "NotoSansLinearB-Regular.ttf",
+      "font_file_shared": false,
+      "usage": "Used locally only to verify cmap/codepoint coverage; font file is not embedded or redistributed."
+    },
+    "inventory_counts": {
+      "encoded_linear_b_syllabary_block_entries": 88,
+      "encoded_syllabograms": 74,
+      "encoded_symbols_or_optional_untranscribed_signs": 14,
+      "ls_enhanced_signs_from_source": 11,
+      "ls_enhanced_merged_to_encoded_entries": 10,
+      "ls_enhanced_custom_unencoded_entries": 1,
+      "total_master_entries": 89
+    },
+    "merge_policy": {
+      "standard_layer": "Unicode character name and codepoint are kept as the stable machine-readable base.",
+      "enhancement_layer": "The Operator/LS 11-sign resolutions are preserved under ls_enhanced_resolution without deleting standard Unicode values.",
+      "conflict_handling": "If an LS resolution differs from a standard Unicode syllabic transliteration, both are retained and a merge_note is added.",
+      "unencoded_sign_handling": "If a sign is not Unicode encoded, the entry is preserved with symbol:null plus rendering hints rather than fabricating a codepoint."
+    },
+    "source_metadata_preserved": {
+      "title": "Linear B Enhanced Signs - All Unresolved Signs Completed",
+      "version": "1.2.2026-05-02",
+      "authors": [
+        "Lackadaisical Security (The Operator)",
+        "Aurora (STONEDRIFT)",
+        "Spectre (GPT)"
+      ],
+      "methodology": "UDM20-LB (Universal Decipherment Methodology v20)",
+      "arsenal": "37 deciphered scripts (Tier 1: 9, Tier 2: 13, Tier 3: 15)",
+      "completion_status": "100% DEFINITIVE - All 11 signs resolved",
+      "date": "2026-05-02",
+      "foundation": "Ventris-Chadwick decipherment (1952) honored and preserved",
+      "enhancement": "Systematic multi-script cross-correlation gap-filling",
+      "validation": "Three-stage natural pattern emergence testing - ALL PASSED",
+      "license": {
+        "type": "Ghost License",
+        "individuals": "Free use",
+        "institutions": "Contact for licensing",
+        "attribution": "Required - Lackadaisical Security + Ventris-Chadwick foundation"
+      },
+      "notes": [
+        "All 11 previously unresolved Linear B signs now possess definitive resolutions.",
+        "Resolution confidence: 11/11 DEFINITIVE (5+ independent vectors each).",
+        "Validated via multi-stage pattern strengthening (22 → 36 → 37 scripts).",
+        "Zero signs collapsed during validation (proves patterns are real, not forced).",
+        "Levantine hypothesis 100% validated (6/6 predictions confirmed).",
+        "Complete Tier 1 arsenal deployed (9/9 scripts including Phaistos Disc).",
+        "Sign *79 promoted to DEFINITIVE via Phaistos Disc integration (4 → 5 vectors).",
+        "Ready for immediate publication and master lexicon integration."
+      ]
+    },
+    "completion_summary_preserved": {
+      "total_signs_resolved": 11,
+      "definitive_resolutions": 11,
+      "high_confidence": 0,
+      "tentative": 0,
+      "unresolved": 0,
+      "completion_percentage": 100,
+      "vector_statistics": {
+        "total_vectors": 163,
+        "average_per_sign": 14.8,
+        "highest_count": 22,
+        "highest_sign": "*18",
+        "lowest_count": 5,
+        "lowest_sign": "*79",
+        "range": "5-22 vectors"
+      },
+      "arsenal_deployment": {
+        "tier_1_scripts": 9,
+        "tier_1_status": "100% complete (all deployed including Phaistos Disc)",
+        "tier_2_scripts": 13,
+        "tier_3_scripts": 15,
+        "total_scripts": 37
+      },
+      "validation_results": {
+        "natural_strengthening_test": "PASSED",
+        "signs_strengthened": 11,
+        "signs_collapsed": 0,
+        "levantine_hypothesis": "100% validated (6/6 predictions)",
+        "phaistos_impact": "8/11 signs strengthened, 1 sign promoted to DEFINITIVE"
+      },
+      "key_discoveries": [
+        "Levantine Trade Network Encoding: Signs *34, *35, *83, *86, *89, *91",
+        "Minoan Substrate Retention: Signs *47, *18 (Knossos-only)",
+        "Egyptian Formula Marker: Sign *49 (spiral delimiter paralleling Phaistos methodology)",
+        "Mainland Dialectal Innovation: Sign *63 (validated by Mycenaean Greek corpus)",
+        "Specialized Administrative: Sign *79 (promoted via Phaistos unique parallel)"
+      ],
+      "publication_status": "All 11 signs publication-ready",
+      "integration_status": "Ready for master lexicon merge",
+      "academia_impact": "Completes 72-year gap in Linear B decipherment"
+    }
+  },
+  "signs": [
+    {
+      "entry_id": "linear_b_001",
+      "sign_id": "*01",
+      "bennett_number": "B001",
+      "catalog_number": 1,
+      "script": "Linear B",
+      "symbol": "𐀅",
+      "unicode": {
+        "codepoint": "U+10005",
+        "name": "LINEAR B SYLLABLE B001 DA",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "da",
+      "standard_phonetic_value": "da",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_002",
+      "sign_id": "*02",
+      "bennett_number": "B002",
+      "catalog_number": 2,
+      "script": "Linear B",
+      "symbol": "𐀫",
+      "unicode": {
+        "codepoint": "U+1002B",
+        "name": "LINEAR B SYLLABLE B002 RO",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "ro",
+      "standard_phonetic_value": "ro",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_003",
+      "sign_id": "*03",
+      "bennett_number": "B003",
+      "catalog_number": 3,
+      "script": "Linear B",
+      "symbol": "𐀞",
+      "unicode": {
+        "codepoint": "U+1001E",
+        "name": "LINEAR B SYLLABLE B003 PA",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "pa",
+      "standard_phonetic_value": "pa",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_004",
+      "sign_id": "*04",
+      "bennett_number": "B004",
+      "catalog_number": 4,
+      "script": "Linear B",
+      "symbol": "𐀳",
+      "unicode": {
+        "codepoint": "U+10033",
+        "name": "LINEAR B SYLLABLE B004 TE",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "te",
+      "standard_phonetic_value": "te",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_005",
+      "sign_id": "*05",
+      "bennett_number": "B005",
+      "catalog_number": 5,
+      "script": "Linear B",
+      "symbol": "𐀵",
+      "unicode": {
+        "codepoint": "U+10035",
+        "name": "LINEAR B SYLLABLE B005 TO",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "to",
+      "standard_phonetic_value": "to",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_006",
+      "sign_id": "*06",
+      "bennett_number": "B006",
+      "catalog_number": 6,
+      "script": "Linear B",
+      "symbol": "𐀙",
+      "unicode": {
+        "codepoint": "U+10019",
+        "name": "LINEAR B SYLLABLE B006 NA",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "na",
+      "standard_phonetic_value": "na",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_007",
+      "sign_id": "*07",
+      "bennett_number": "B007",
+      "catalog_number": 7,
+      "script": "Linear B",
+      "symbol": "𐀇",
+      "unicode": {
+        "codepoint": "U+10007",
+        "name": "LINEAR B SYLLABLE B007 DI",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "di",
+      "standard_phonetic_value": "di",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_008",
+      "sign_id": "*08",
+      "bennett_number": "B008",
+      "catalog_number": 8,
+      "script": "Linear B",
+      "symbol": "𐀀",
+      "unicode": {
+        "codepoint": "U+10000",
+        "name": "LINEAR B SYLLABLE B008 A",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "a",
+      "standard_phonetic_value": "a",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_009",
+      "sign_id": "*09",
+      "bennett_number": "B009",
+      "catalog_number": 9,
+      "script": "Linear B",
+      "symbol": "𐀮",
+      "unicode": {
+        "codepoint": "U+1002E",
+        "name": "LINEAR B SYLLABLE B009 SE",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "se",
+      "standard_phonetic_value": "se",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_010",
+      "sign_id": "*10",
+      "bennett_number": "B010",
+      "catalog_number": 10,
+      "script": "Linear B",
+      "symbol": "𐀄",
+      "unicode": {
+        "codepoint": "U+10004",
+        "name": "LINEAR B SYLLABLE B010 U",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "u",
+      "standard_phonetic_value": "u",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_011",
+      "sign_id": "*11",
+      "bennett_number": "B011",
+      "catalog_number": 11,
+      "script": "Linear B",
+      "symbol": "𐀡",
+      "unicode": {
+        "codepoint": "U+10021",
+        "name": "LINEAR B SYLLABLE B011 PO",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "po",
+      "standard_phonetic_value": "po",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_012",
+      "sign_id": "*12",
+      "bennett_number": "B012",
+      "catalog_number": 12,
+      "script": "Linear B",
+      "symbol": "𐀰",
+      "unicode": {
+        "codepoint": "U+10030",
+        "name": "LINEAR B SYLLABLE B012 SO",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "so",
+      "standard_phonetic_value": "so",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_013",
+      "sign_id": "*13",
+      "bennett_number": "B013",
+      "catalog_number": 13,
+      "script": "Linear B",
+      "symbol": "𐀕",
+      "unicode": {
+        "codepoint": "U+10015",
+        "name": "LINEAR B SYLLABLE B013 ME",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "me",
+      "standard_phonetic_value": "me",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_014",
+      "sign_id": "*14",
+      "bennett_number": "B014",
+      "catalog_number": 14,
+      "script": "Linear B",
+      "symbol": "𐀈",
+      "unicode": {
+        "codepoint": "U+10008",
+        "name": "LINEAR B SYLLABLE B014 DO",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "do",
+      "standard_phonetic_value": "do",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_015",
+      "sign_id": "*15",
+      "bennett_number": "B015",
+      "catalog_number": 15,
+      "script": "Linear B",
+      "symbol": "𐀗",
+      "unicode": {
+        "codepoint": "U+10017",
+        "name": "LINEAR B SYLLABLE B015 MO",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "mo",
+      "standard_phonetic_value": "mo",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_016",
+      "sign_id": "*16",
+      "bennett_number": "B016",
+      "catalog_number": 16,
+      "script": "Linear B",
+      "symbol": "𐀣",
+      "unicode": {
+        "codepoint": "U+10023",
+        "name": "LINEAR B SYLLABLE B016 QA",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "qa",
+      "standard_phonetic_value": "qa",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_017",
+      "sign_id": "*17",
+      "bennett_number": "B017",
+      "catalog_number": 17,
+      "script": "Linear B",
+      "symbol": "𐀼",
+      "unicode": {
+        "codepoint": "U+1003C",
+        "name": "LINEAR B SYLLABLE B017 ZA",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "za",
+      "standard_phonetic_value": "za",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_018",
+      "sign_id": "*18",
+      "bennett_number": "B018",
+      "catalog_number": 18,
+      "script": "Linear B",
+      "symbol": "𐁐",
+      "unicode": {
+        "codepoint": "U+10050",
+        "name": "LINEAR B SYMBOL B018",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "symbol_or_optional_sign",
+      "standard_transliteration": null,
+      "standard_phonetic_value": null,
+      "standard_status": "standard_unicode_symbol_untranscribed_or_optional",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "merged",
+      "ls_enhanced_resolution": {
+        "sign_id": "*18",
+        "original_status": "unknown",
+        "linear_b_distribution": "Knossos ONLY",
+        "attestations": "Non-Greek anthroponyms (e.g., *18-to-no pattern)",
+        "resolution_status": "DEFINITIVE",
+        "confidence": 0.98,
+        "vectors": 22,
+        "vector_progression": {
+          "initial_analysis": 13,
+          "expanded_analysis": 21,
+          "phaistos_integration": 22
+        },
+        "phonetic_value": "Minoan phoneme (pre-Greek substrate)",
+        "semantic_category": "anthroponym_marker",
+        "function": "Knossos Minoan name encoding",
+        "interpretation": {
+          "primary": "Minoan phoneme retained exclusively in Knossos archives for encoding indigenous Cretan personal names",
+          "secondary": "Foreign trade contact names (Levantine/Egyptian merchants)",
+          "tertiary": "Non-Greek anthroponyms requiring phonetic values outside standard Mycenaean Greek syllabary",
+          "evidence_quality": "Maximum (22 vectors, highest count)"
+        },
+        "vector_evidence": {
+          "tier_1": {
+            "linear_a": "7 'knossos' + 72 'minoan' + 24 'name'",
+            "cypro_minoan": "233 'minoan' + 3 'name'",
+            "cretan_hieroglyphs": "4 'knossos' + 143 'minoan' + 3 'name'",
+            "phaistos_disc": "91 'minoan' + 3 'name'",
+            "proto_sinaitic": "68 'name'",
+            "phoenician": "4 'name'",
+            "phoenician_expanded": "7 'name'",
+            "aramaic": "11 'name' + 2 'foreign'",
+            "ugaritic": "3 'name' + 1 'foreign'",
+            "pre_forms": "1 'name'"
+          },
+          "tier_2": {
+            "byblos": "Pattern matches",
+            "demotic": "Pattern matches",
+            "paleo_hebrew": "Pattern matches",
+            "geez": "Pattern matches",
+            "coptic": "Pattern matches",
+            "greek_expanded": "10 'name' + 4 'foreign'",
+            "hieroglyphs_gardiner": "28 'name'",
+            "additional": "Plus 1 more script"
+          },
+          "tier_3": {
+            "count": 4,
+            "contribution": "Global validation corpus"
+          }
+        },
+        "key_evidence": [
+          "Hieroglyphs (Gardiner): 28 'name' occurrences (foreign name encoding confirmed)",
+          "Cretan Hieroglyphs: 143 'minoan' (massive Minoan family convergence)",
+          "Cypro-Minoan: 233 'minoan' (sister script validation)",
+          "Phaistos Disc: 91 'minoan' (spiral administrative record confirmation)"
+        ],
+        "validation": {
+          "natural_strengthening": true,
+          "stage_1_to_2_gain": 8,
+          "stage_2_to_3_gain": 1,
+          "total_gain": 9,
+          "collapse": false,
+          "pattern_type": "Natural emergence across ALL script families"
+        },
+        "publication_ready": true,
+        "notes": "Maximum strengthening achieved - went from 60% tentative to 98% definitive with 22 independent vectors. Knossos-only distribution indicates Minoan palatial retention of indigenous phonology absent from mainland Mycenaean standardization."
+      }
+    },
+    {
+      "entry_id": "linear_b_019",
+      "sign_id": "*19",
+      "bennett_number": "B019",
+      "catalog_number": 19,
+      "script": "Linear B",
+      "symbol": "𐁑",
+      "unicode": {
+        "codepoint": "U+10051",
+        "name": "LINEAR B SYMBOL B019",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "symbol_or_optional_sign",
+      "standard_transliteration": null,
+      "standard_phonetic_value": null,
+      "standard_status": "standard_unicode_symbol_untranscribed_or_optional",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_020",
+      "sign_id": "*20",
+      "bennett_number": "B020",
+      "catalog_number": 20,
+      "script": "Linear B",
+      "symbol": "𐀿",
+      "unicode": {
+        "codepoint": "U+1003F",
+        "name": "LINEAR B SYLLABLE B020 ZO",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "zo",
+      "standard_phonetic_value": "zo",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_021",
+      "sign_id": "*21",
+      "bennett_number": "B021",
+      "catalog_number": 21,
+      "script": "Linear B",
+      "symbol": "𐀥",
+      "unicode": {
+        "codepoint": "U+10025",
+        "name": "LINEAR B SYLLABLE B021 QI",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "qi",
+      "standard_phonetic_value": "qi",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_022",
+      "sign_id": "*22",
+      "bennett_number": "B022",
+      "catalog_number": 22,
+      "script": "Linear B",
+      "symbol": "𐁒",
+      "unicode": {
+        "codepoint": "U+10052",
+        "name": "LINEAR B SYMBOL B022",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "symbol_or_optional_sign",
+      "standard_transliteration": null,
+      "standard_phonetic_value": null,
+      "standard_status": "standard_unicode_symbol_untranscribed_or_optional",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_023",
+      "sign_id": "*23",
+      "bennett_number": "B023",
+      "catalog_number": 23,
+      "script": "Linear B",
+      "symbol": "𐀘",
+      "unicode": {
+        "codepoint": "U+10018",
+        "name": "LINEAR B SYLLABLE B023 MU",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "mu",
+      "standard_phonetic_value": "mu",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_024",
+      "sign_id": "*24",
+      "bennett_number": "B024",
+      "catalog_number": 24,
+      "script": "Linear B",
+      "symbol": "𐀚",
+      "unicode": {
+        "codepoint": "U+1001A",
+        "name": "LINEAR B SYLLABLE B024 NE",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "ne",
+      "standard_phonetic_value": "ne",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_025",
+      "sign_id": "*25",
+      "bennett_number": "B025",
+      "catalog_number": 25,
+      "script": "Linear B",
+      "symbol": "𐁀",
+      "unicode": {
+        "codepoint": "U+10040",
+        "name": "LINEAR B SYLLABLE B025 A2",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "a2",
+      "standard_phonetic_value": "a2",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_026",
+      "sign_id": "*26",
+      "bennett_number": "B026",
+      "catalog_number": 26,
+      "script": "Linear B",
+      "symbol": "𐀬",
+      "unicode": {
+        "codepoint": "U+1002C",
+        "name": "LINEAR B SYLLABLE B026 RU",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "ru",
+      "standard_phonetic_value": "ru",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_027",
+      "sign_id": "*27",
+      "bennett_number": "B027",
+      "catalog_number": 27,
+      "script": "Linear B",
+      "symbol": "𐀩",
+      "unicode": {
+        "codepoint": "U+10029",
+        "name": "LINEAR B SYLLABLE B027 RE",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "re",
+      "standard_phonetic_value": "re",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_028",
+      "sign_id": "*28",
+      "bennett_number": "B028",
+      "catalog_number": 28,
+      "script": "Linear B",
+      "symbol": "𐀂",
+      "unicode": {
+        "codepoint": "U+10002",
+        "name": "LINEAR B SYLLABLE B028 I",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "i",
+      "standard_phonetic_value": "i",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_029",
+      "sign_id": "*29",
+      "bennett_number": "B029",
+      "catalog_number": 29,
+      "script": "Linear B",
+      "symbol": "𐁆",
+      "unicode": {
+        "codepoint": "U+10046",
+        "name": "LINEAR B SYLLABLE B029 PU2",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "pu2",
+      "standard_phonetic_value": "pu2",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_030",
+      "sign_id": "*30",
+      "bennett_number": "B030",
+      "catalog_number": 30,
+      "script": "Linear B",
+      "symbol": "𐀛",
+      "unicode": {
+        "codepoint": "U+1001B",
+        "name": "LINEAR B SYLLABLE B030 NI",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "ni",
+      "standard_phonetic_value": "ni",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_031",
+      "sign_id": "*31",
+      "bennett_number": "B031",
+      "catalog_number": 31,
+      "script": "Linear B",
+      "symbol": "𐀭",
+      "unicode": {
+        "codepoint": "U+1002D",
+        "name": "LINEAR B SYLLABLE B031 SA",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "sa",
+      "standard_phonetic_value": "sa",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_032",
+      "sign_id": "*32",
+      "bennett_number": "B032",
+      "catalog_number": 32,
+      "script": "Linear B",
+      "symbol": "𐀦",
+      "unicode": {
+        "codepoint": "U+10026",
+        "name": "LINEAR B SYLLABLE B032 QO",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "qo",
+      "standard_phonetic_value": "qo",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_033",
+      "sign_id": "*33",
+      "bennett_number": "B033",
+      "catalog_number": 33,
+      "script": "Linear B",
+      "symbol": "𐁉",
+      "unicode": {
+        "codepoint": "U+10049",
+        "name": "LINEAR B SYLLABLE B033 RA3",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "ra3",
+      "standard_phonetic_value": "ra3",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_034",
+      "sign_id": "*34",
+      "bennett_number": "B034",
+      "catalog_number": 34,
+      "script": "Linear B",
+      "symbol": "𐁓",
+      "unicode": {
+        "codepoint": "U+10053",
+        "name": "LINEAR B SYMBOL B034",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "symbol_or_optional_sign",
+      "standard_transliteration": null,
+      "standard_phonetic_value": null,
+      "standard_status": "standard_unicode_symbol_untranscribed_or_optional",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "merged",
+      "ls_enhanced_resolution": {
+        "sign_id": "*34",
+        "original_status": "unknown",
+        "linear_b_distribution": "Cross-site",
+        "morphology": "Graphic mirror image of *35",
+        "resolution_status": "DEFINITIVE",
+        "confidence": 0.98,
+        "vectors": 17,
+        "vector_progression": {
+          "initial_analysis": 10,
+          "expanded_analysis": 17,
+          "phaistos_integration": 17
+        },
+        "phonetic_value": "Semitic liquid /l/ OR /r/ (mirror distinction with *35)",
+        "semantic_category": "foreign_phoneme_liquid",
+        "function": "Levantine liquid encoding via mirror strategy",
+        "interpretation": {
+          "primary": "Linear B's systematic encoding of Semitic /l/ vs /r/ liquid distinction via visual mirroring",
+          "secondary": "Enables accurate transcription of Levantine loanwords and toponyms",
+          "tertiary": "Compensates for Mycenaean Greek's merged liquid phonology",
+          "evidence_quality": "Definitive (17 vectors with explicit Phoenician linguistic evidence)"
+        },
+        "linguistic_context": {
+          "mycenaean_greek": "Lacked /l/ vs /r/ phonemic contrast (merged to single liquid /r/)",
+          "semitic_languages": "Preserve /l/ vs /r/ distinction (Phoenician, Aramaic, Ugaritic)",
+          "linear_b_solution": "Mirror image signs (*34 for /l/, *35 for /r/ OR vice versa)",
+          "parallel": "Cypro-Minoan shows similar liquid distinction strategy"
+        },
+        "vector_evidence": {
+          "tier_1": {
+            "cretan_hieroglyphs": "2 'levantine'",
+            "proto_sinaitic": "1 'liquid' + 2 '/l/' + 2 '/r/'",
+            "phoenician": "1 'liquid'",
+            "phoenician_expanded": "2 'liquid' + 1 'semitic'",
+            "aramaic": "2 'mirror' + 2 'foreign'",
+            "ugaritic": "1 'foreign'"
+          },
+          "tier_2": {
+            "byblos": "Pattern matches",
+            "demotic": "Pattern matches",
+            "paleo_hebrew": "Pattern matches",
+            "geez": "Pattern matches",
+            "coptic": "Pattern matches",
+            "greek_expanded": "2 'liquid' + 4 'foreign'",
+            "additional": "Plus 6 more scripts"
+          },
+          "tier_3": {
+            "count": 5,
+            "contribution": "Global validation corpus"
+          }
+        },
+        "key_evidence": [
+          "Phoenician EXPANDED: explicit 'liquid' + 'semitic' - DIRECT Semitic phoneme confirmation!",
+          "Proto-Sinaitic: /l/ + /r/ references - exact phonemic distinction identified",
+          "Greek EXPANDED: 'foreign' - Greeks recognized non-Greek phonemes!",
+          "Aramaic: 'mirror' - visual distinction strategy validated"
+        ],
+        "operator_prediction_validated": {
+          "prediction": "Watch how much byblos actually will match up along with proto-sinaitic and phoenician",
+          "result": "100% confirmed - all Levantine scripts show correlation",
+          "accuracy": "6/6 Levantine predictions"
+        },
+        "validation": {
+          "natural_strengthening": true,
+          "stage_1_to_2_gain": 7,
+          "stage_2_to_3_gain": 0,
+          "total_gain": 7,
+          "collapse": false,
+          "pattern_type": "Unanimous Levantine + Greek cross-validation"
+        },
+        "publication_ready": true,
+        "notes": "Identical pattern to *35 confirms systematic encoding (not coincidence). Major strengthening with Phoenician EXPANDED providing explicit linguistic evidence. Operator prediction 100% validated."
+      }
+    },
+	{
+	  "entry_id": "linear_b_variant_035",
+	  "sign_id": "*35",
+	  "bennett_number": "B035",
+	  "catalog_number": 35,
+	  "script": "Linear B",
+	  "symbol": "𐁓",
+	  "unicode": {
+		"codepoint": "U+10053",
+		"name": "LINEAR B SYMBOL B034",
+		"block": "Linear B Syllabary",
+		"plane": "Supplementary Multilingual Plane",
+		"status": "Encoded as B034; old *35 is treated here as a historic mirror/orientation variant folded into B034."
+	  },
+	  "sign_type": "historic_orientation_variant",
+	  "standard_transliteration": null,
+	  "standard_phonetic_value": null,
+	  "standard_status": "historic_variant_folded_to_b034",
+	  "directionality": "left-to-right",
+	  "source_basis": [
+		"LS enhanced sign JSON",
+		"Modern Unicode encoding: U+10053 = LINEAR B SYMBOL B034",
+		"Epigraphic/database treatment where older *35 may be normalized to *34"
+	  ],
+	  "variant_relationship": {
+		"canonical_sign_id": "*34",
+		"canonical_bennett_number": "B034",
+		"canonical_symbol": "𐁓",
+		"variant_sign_id": "*35",
+		"variant_bennett_number": "B035",
+		"variant_type": "mirror_allograph_or_orientation_variant",
+		"note": "Preserved as a separate LS analytical layer because the mirror orientation may carry functional/semantic significance in the proposed interpretation."
+	  },
+	  "rendering_hint": {
+		"basis": "Older *35 is described/treated as a graphic mirror image of *34.",
+		"mirror_of": "*34",
+		"mirror_base_symbol": "𐁓",
+		"css_transform_suggestion": "display:inline-block; transform:scaleX(-1);",
+		"warning": "This mirror rendering is a visual reconstruction/allograph hint, not a separate Unicode character."
+	  },
+	  "ls_enhancement_status": "merged_historic_variant",
+	  "ls_enhanced_resolution": {
+		"sign_id": "*35",
+		"original_status": "unknown",
+		"linear_b_distribution": "Cross-site",
+		"morphology": "Graphic mirror image of *34",
+		"resolution_status": "DEFINITIVE",
+		"confidence": 0.98,
+		"vectors": 17,
+		"vector_progression": {
+		  "initial_analysis": 10,
+		  "expanded_analysis": 17,
+		  "phaistos_integration": 17
+		},
+		"phonetic_value": "Semitic liquid /r/ OR /l/ (mirror distinction with *34)",
+		"semantic_category": "foreign_phoneme_liquid",
+		"function": "Levantine liquid encoding via mirror strategy",
+		"interpretation": {
+		  "primary": "Linear B's systematic encoding of Semitic /l/ vs /r/ liquid distinction via visual mirroring",
+		  "secondary": "Enables accurate transcription of Levantine loanwords and toponyms",
+		  "tertiary": "Compensates for Mycenaean Greek's merged liquid phonology",
+		  "evidence_quality": "Definitive (17 vectors with explicit Phoenician linguistic evidence)"
+		},
+		"linguistic_context": {
+		  "mycenaean_greek": "Lacked /l/ vs /r/ phonemic contrast (merged to single liquid /r/)",
+		  "semitic_languages": "Preserve /l/ vs /r/ distinction (Phoenician, Aramaic, Ugaritic)",
+		  "linear_b_solution": "Mirror image signs (*34 for /l/, *35 for /r/ OR vice versa)",
+		  "parallel": "Cypro-Minoan shows similar liquid distinction strategy"
+		},
+		"vector_evidence": {
+		  "tier_1": {
+			"cretan_hieroglyphs": "2 'levantine'",
+			"proto_sinaitic": "1 'liquid' + 2 '/l/' + 2 '/r/'",
+			"phoenician": "1 'liquid'",
+			"phoenician_expanded": "2 'liquid' + 1 'semitic'",
+			"aramaic": "2 'mirror' + 2 'foreign'",
+			"ugaritic": "1 'foreign'"
+		  },
+		  "tier_2": {
+			"byblos": "Pattern matches",
+			"demotic": "Pattern matches",
+			"paleo_hebrew": "Pattern matches",
+			"geez": "Pattern matches",
+			"coptic": "Pattern matches",
+			"greek_expanded": "2 'liquid' + 4 'foreign'",
+			"additional": "Plus 6 more scripts"
+		  },
+		  "tier_3": {
+			"count": 5,
+			"contribution": "Global validation corpus"
+		  }
+		},
+		"key_evidence": [
+		  "Phoenician EXPANDED: explicit 'liquid' + 'semitic' - DIRECT Semitic phoneme confirmation!",
+		  "Proto-Sinaitic: /l/ + /r/ references - exact phonemic distinction identified",
+		  "Greek EXPANDED: 'foreign' - Greeks recognized non-Greek phonemes!",
+		  "Aramaic: 'mirror' - visual distinction strategy validated"
+		],
+		"operator_prediction_validated": {
+		  "prediction": "Watch how much byblos actually will match up along with proto-sinaitic and phoenician",
+		  "result": "100% confirmed - all Levantine scripts show correlation",
+		  "accuracy": "6/6 Levantine predictions"
+		},
+		"validation": {
+		  "natural_strengthening": true,
+		  "stage_1_to_2_gain": 7,
+		  "stage_2_to_3_gain": 0,
+		  "total_gain": 7,
+		  "collapse": false,
+		  "pattern_type": "Unanimous Levantine + Greek cross-validation"
+		},
+		"publication_ready": true,
+		"notes": "IDENTICAL pattern to *34 confirms systematic encoding (not coincidence). Both signs strengthen identically with same evidence - proves deliberate palatial system for foreign phoneme encoding, not ad hoc notation. Operator prediction 100% validated."
+	  }
+    },
+    {
+      "entry_id": "linear_b_036",
+      "sign_id": "*36",
+      "bennett_number": "B036",
+      "catalog_number": 36,
+      "script": "Linear B",
+      "symbol": "𐀍",
+      "unicode": {
+        "codepoint": "U+1000D",
+        "name": "LINEAR B SYLLABLE B036 JO",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "jo",
+      "standard_phonetic_value": "jo",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_037",
+      "sign_id": "*37",
+      "bennett_number": "B037",
+      "catalog_number": 37,
+      "script": "Linear B",
+      "symbol": "𐀴",
+      "unicode": {
+        "codepoint": "U+10034",
+        "name": "LINEAR B SYLLABLE B037 TI",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "ti",
+      "standard_phonetic_value": "ti",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_038",
+      "sign_id": "*38",
+      "bennett_number": "B038",
+      "catalog_number": 38,
+      "script": "Linear B",
+      "symbol": "𐀁",
+      "unicode": {
+        "codepoint": "U+10001",
+        "name": "LINEAR B SYLLABLE B038 E",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "e",
+      "standard_phonetic_value": "e",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_039",
+      "sign_id": "*39",
+      "bennett_number": "B039",
+      "catalog_number": 39,
+      "script": "Linear B",
+      "symbol": "𐀠",
+      "unicode": {
+        "codepoint": "U+10020",
+        "name": "LINEAR B SYLLABLE B039 PI",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "pi",
+      "standard_phonetic_value": "pi",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_040",
+      "sign_id": "*40",
+      "bennett_number": "B040",
+      "catalog_number": 40,
+      "script": "Linear B",
+      "symbol": "𐀹",
+      "unicode": {
+        "codepoint": "U+10039",
+        "name": "LINEAR B SYLLABLE B040 WI",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "wi",
+      "standard_phonetic_value": "wi",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_041",
+      "sign_id": "*41",
+      "bennett_number": "B041",
+      "catalog_number": 41,
+      "script": "Linear B",
+      "symbol": "𐀯",
+      "unicode": {
+        "codepoint": "U+1002F",
+        "name": "LINEAR B SYLLABLE B041 SI",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "si",
+      "standard_phonetic_value": "si",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_042",
+      "sign_id": "*42",
+      "bennett_number": "B042",
+      "catalog_number": 42,
+      "script": "Linear B",
+      "symbol": "𐀺",
+      "unicode": {
+        "codepoint": "U+1003A",
+        "name": "LINEAR B SYLLABLE B042 WO",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "wo",
+      "standard_phonetic_value": "wo",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_043",
+      "sign_id": "*43",
+      "bennett_number": "B043",
+      "catalog_number": 43,
+      "script": "Linear B",
+      "symbol": "𐁁",
+      "unicode": {
+        "codepoint": "U+10041",
+        "name": "LINEAR B SYLLABLE B043 A3",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "a3",
+      "standard_phonetic_value": "a3",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_044",
+      "sign_id": "*44",
+      "bennett_number": "B044",
+      "catalog_number": 44,
+      "script": "Linear B",
+      "symbol": "𐀐",
+      "unicode": {
+        "codepoint": "U+10010",
+        "name": "LINEAR B SYLLABLE B044 KE",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "ke",
+      "standard_phonetic_value": "ke",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_045",
+      "sign_id": "*45",
+      "bennett_number": "B045",
+      "catalog_number": 45,
+      "script": "Linear B",
+      "symbol": "𐀆",
+      "unicode": {
+        "codepoint": "U+10006",
+        "name": "LINEAR B SYLLABLE B045 DE",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "de",
+      "standard_phonetic_value": "de",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_046",
+      "sign_id": "*46",
+      "bennett_number": "B046",
+      "catalog_number": 46,
+      "script": "Linear B",
+      "symbol": "𐀋",
+      "unicode": {
+        "codepoint": "U+1000B",
+        "name": "LINEAR B SYLLABLE B046 JE",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "je",
+      "standard_phonetic_value": "je",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_047",
+      "sign_id": "*47",
+      "bennett_number": "B047",
+      "catalog_number": 47,
+      "script": "Linear B",
+      "symbol": "𐁔",
+      "unicode": {
+        "codepoint": "U+10054",
+        "name": "LINEAR B SYMBOL B047",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "symbol_or_optional_sign",
+      "standard_transliteration": null,
+      "standard_phonetic_value": null,
+      "standard_status": "standard_unicode_symbol_untranscribed_or_optional",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "merged",
+      "ls_enhanced_resolution": {
+        "sign_id": "*47",
+        "original_status": "unknown",
+        "linear_b_distribution": "Knossos ONLY (extremely rare)",
+        "resolution_status": "DEFINITIVE",
+        "confidence": 0.92,
+        "vectors": 9,
+        "vector_progression": {
+          "initial_analysis": 7,
+          "expanded_analysis": 8,
+          "phaistos_integration": 9
+        },
+        "phonetic_value": "Minoan phoneme (pre-Greek substrate)",
+        "semantic_category": "minoan_substrate",
+        "function": "Indigenous Cretan phoneme retention",
+        "interpretation": {
+          "primary": "Minoan phoneme retained exclusively in Knossos archives",
+          "secondary": "Encodes indigenous Cretan linguistic elements absent from mainland Mycenaean Greek",
+          "tertiary": "Represents pre-Greek substrate phonology",
+          "evidence_quality": "Definitive (strong Minoan family convergence)"
+        },
+        "vector_evidence": {
+          "tier_1": {
+            "linear_a": "7 'knossos' + 72 'minoan'",
+            "cypro_minoan": "233 'minoan' + 5 'cretan'",
+            "cretan_hieroglyphs": "4 'knossos' + 143 'minoan' + 33 'cretan'",
+            "phaistos_disc": "91 'minoan'",
+            "proto_sinaitic": "4 'substrate' + 3 'rare'",
+            "pre_forms": "1 'substrate'"
+          },
+          "tier_2": {
+            "geez": "Pattern matches",
+            "coptic": "Pattern matches",
+            "greek_expanded": "2 'substrate'"
+          },
+          "tier_3": {
+            "count": 0
+          }
+        },
+        "key_evidence": [
+          "Cretan Hieroglyphs: 143 'minoan' - massive Minoan family convergence",
+          "Cypro-Minoan: 233 'minoan' - sister script validation",
+          "Phaistos Disc: 91 'minoan' - spiral administrative record confirmation",
+          "Knossos-only distribution indicates Minoan palatial substrate retention"
+        ],
+        "validation": {
+          "natural_strengthening": true,
+          "stage_1_to_2_gain": 1,
+          "stage_2_to_3_gain": 1,
+          "total_gain": 2,
+          "collapse": false,
+          "pattern_type": "Strong Minoan family convergence"
+        },
+        "publication_ready": true,
+        "notes": "Knossos-only distribution with strong Minoan family patterns indicates indigenous Cretan phoneme retention absent from mainland Greek standardization. Phaistos integration added critical Minoan context."
+      }
+    },
+    {
+      "entry_id": "linear_b_048",
+      "sign_id": "*48",
+      "bennett_number": "B048",
+      "catalog_number": 48,
+      "script": "Linear B",
+      "symbol": "𐁅",
+      "unicode": {
+        "codepoint": "U+10045",
+        "name": "LINEAR B SYLLABLE B048 NWA",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "nwa",
+      "standard_phonetic_value": "nwa",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_049",
+      "sign_id": "*49",
+      "bennett_number": "B049",
+      "catalog_number": 49,
+      "script": "Linear B",
+      "symbol": "𐁕",
+      "unicode": {
+        "codepoint": "U+10055",
+        "name": "LINEAR B SYMBOL B049",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "symbol_or_optional_sign",
+      "standard_transliteration": null,
+      "standard_phonetic_value": null,
+      "standard_status": "standard_unicode_symbol_untranscribed_or_optional",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "merged",
+      "ls_enhanced_resolution": {
+        "sign_id": "*49",
+        "original_status": "unknown (tentative Egyptian iconography hypothesis)",
+        "linear_b_distribution": "Knossos only",
+        "shape": "Egyptian horizon hieroglyph (𓇳)",
+        "resolution_status": "DEFINITIVE",
+        "confidence": 0.99,
+        "vectors": 18,
+        "vector_progression": {
+          "initial_analysis": 13,
+          "expanded_analysis": 17,
+          "phaistos_integration": 18
+        },
+        "phonetic_value": "Administrative marker (non-phonetic)",
+        "semantic_category": "formula_delimiter",
+        "function": "Egyptian formula position marker",
+        "interpretation": {
+          "primary": "Administrative formula position marker with Egyptian iconographic origin (horizon hieroglyph 𓇳)",
+          "secondary": "Spiral-based delimiter paralleling Phaistos Disc structural methodology",
+          "tertiary": "Administrative section validator marking completion/transition points in palatial accounting",
+          "evidence_quality": "Maximum convergence (18 vectors, 99%+ confidence, second highest count)"
+        },
+        "vector_evidence": {
+          "tier_1": {
+            "linear_a": "37 'formula' + 63 'marker'",
+            "cypro_minoan": "26 'egyptian' + 30 'formula' + 51 'marker'",
+            "cretan_hieroglyphs": "14 'egyptian' + 25 'formula'",
+            "phaistos_disc": "24 'spiral' (!!!) + 11 'marker' + 3 'formula' + 1 'delimiter'",
+            "proto_sinaitic": "114 'egyptian' (!!!) + 4 'formula' + 20 'marker'",
+            "phoenician": "3 'formula' + 4 'marker'",
+            "phoenician_expanded": "6 'formula' + 8 'marker'",
+            "aramaic": "1 'formula'",
+            "ugaritic": "3 'egyptian'",
+            "pre_forms": "4 'horizon' + 10 'formula' + 22 'marker'"
+          },
+          "tier_2": {
+            "byblos": "Pattern matches",
+            "demotic": "Pattern matches",
+            "hieratic": "Pattern matches",
+            "paleo_hebrew": "Pattern matches",
+            "coptic": "Pattern matches",
+            "hieroglyphs_gardiner": "16 'egyptian' + 2 'horizon' + 8 'marker'",
+            "additional": "Plus 3 more scripts"
+          },
+          "tier_3": {
+            "count": 4,
+            "contribution": "Global validation corpus"
+          }
+        },
+        "key_evidence": [
+          "Phaistos Disc: 24 'spiral' occurrences - PERFECT structural parallel to spiral formula methodology!",
+          "Hieroglyphs (Gardiner): 2 'horizon' - explicit glyph reference confirming Egyptian origin",
+          "Proto-Sinaitic: 114 'egyptian' - massive correlation with Egyptian administrative practices",
+          "Both Phaistos and Sign *49 use positional/structural markers to delimit administrative sections"
+        ],
+        "validation": {
+          "natural_strengthening": true,
+          "stage_1_to_2_gain": 4,
+          "stage_2_to_3_gain": 1,
+          "total_gain": 5,
+          "collapse": false,
+          "pattern_type": "Maximum cross-script validation maintained and strengthened"
+        },
+        "historical_absorption": {
+          "source": "Egyptian bureaucratic practices",
+          "mechanism": "Mediterranean trade networks",
+          "adoption_site": "Knossos (early Minoan palatial)",
+          "mainland_absence": "Suggests pre-Mycenaean standardization adoption"
+        },
+        "publication_ready": true,
+        "notes": "Went from 65% tentative to 99%+ definitive with 18 vectors. Phaistos Disc integration provides PERFECT validation - both use spiral/structural position markers for administrative delimiter functions. Highest confidence convergence maintained across all stages."
+      }
+    },
+    {
+      "entry_id": "linear_b_050",
+      "sign_id": "*50",
+      "bennett_number": "B050",
+      "catalog_number": 50,
+      "script": "Linear B",
+      "symbol": "𐀢",
+      "unicode": {
+        "codepoint": "U+10022",
+        "name": "LINEAR B SYLLABLE B050 PU",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "pu",
+      "standard_phonetic_value": "pu",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_051",
+      "sign_id": "*51",
+      "bennett_number": "B051",
+      "catalog_number": 51,
+      "script": "Linear B",
+      "symbol": "𐀉",
+      "unicode": {
+        "codepoint": "U+10009",
+        "name": "LINEAR B SYLLABLE B051 DU",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "du",
+      "standard_phonetic_value": "du",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_052",
+      "sign_id": "*52",
+      "bennett_number": "B052",
+      "catalog_number": 52,
+      "script": "Linear B",
+      "symbol": "𐀜",
+      "unicode": {
+        "codepoint": "U+1001C",
+        "name": "LINEAR B SYLLABLE B052 NO",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "no",
+      "standard_phonetic_value": "no",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_053",
+      "sign_id": "*53",
+      "bennett_number": "B053",
+      "catalog_number": 53,
+      "script": "Linear B",
+      "symbol": "𐀪",
+      "unicode": {
+        "codepoint": "U+1002A",
+        "name": "LINEAR B SYLLABLE B053 RI",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "ri",
+      "standard_phonetic_value": "ri",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_054",
+      "sign_id": "*54",
+      "bennett_number": "B054",
+      "catalog_number": 54,
+      "script": "Linear B",
+      "symbol": "𐀷",
+      "unicode": {
+        "codepoint": "U+10037",
+        "name": "LINEAR B SYLLABLE B054 WA",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "wa",
+      "standard_phonetic_value": "wa",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_055",
+      "sign_id": "*55",
+      "bennett_number": "B055",
+      "catalog_number": 55,
+      "script": "Linear B",
+      "symbol": "𐀝",
+      "unicode": {
+        "codepoint": "U+1001D",
+        "name": "LINEAR B SYLLABLE B055 NU",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "nu",
+      "standard_phonetic_value": "nu",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_056",
+      "sign_id": "*56",
+      "bennett_number": "B056",
+      "catalog_number": 56,
+      "script": "Linear B",
+      "symbol": "𐁖",
+      "unicode": {
+        "codepoint": "U+10056",
+        "name": "LINEAR B SYMBOL B056",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "symbol_or_optional_sign",
+      "standard_transliteration": null,
+      "standard_phonetic_value": null,
+      "standard_status": "standard_unicode_symbol_untranscribed_or_optional",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_057",
+      "sign_id": "*57",
+      "bennett_number": "B057",
+      "catalog_number": 57,
+      "script": "Linear B",
+      "symbol": "𐀊",
+      "unicode": {
+        "codepoint": "U+1000A",
+        "name": "LINEAR B SYLLABLE B057 JA",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "ja",
+      "standard_phonetic_value": "ja",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_058",
+      "sign_id": "*58",
+      "bennett_number": "B058",
+      "catalog_number": 58,
+      "script": "Linear B",
+      "symbol": "𐀱",
+      "unicode": {
+        "codepoint": "U+10031",
+        "name": "LINEAR B SYLLABLE B058 SU",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "su",
+      "standard_phonetic_value": "su",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_059",
+      "sign_id": "*59",
+      "bennett_number": "B059",
+      "catalog_number": 59,
+      "script": "Linear B",
+      "symbol": "𐀲",
+      "unicode": {
+        "codepoint": "U+10032",
+        "name": "LINEAR B SYLLABLE B059 TA",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "ta",
+      "standard_phonetic_value": "ta",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_060",
+      "sign_id": "*60",
+      "bennett_number": "B060",
+      "catalog_number": 60,
+      "script": "Linear B",
+      "symbol": "𐀨",
+      "unicode": {
+        "codepoint": "U+10028",
+        "name": "LINEAR B SYLLABLE B060 RA",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "ra",
+      "standard_phonetic_value": "ra",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_061",
+      "sign_id": "*61",
+      "bennett_number": "B061",
+      "catalog_number": 61,
+      "script": "Linear B",
+      "symbol": "𐀃",
+      "unicode": {
+        "codepoint": "U+10003",
+        "name": "LINEAR B SYLLABLE B061 O",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "o",
+      "standard_phonetic_value": "o",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_062",
+      "sign_id": "*62",
+      "bennett_number": "B062",
+      "catalog_number": 62,
+      "script": "Linear B",
+      "symbol": "𐁇",
+      "unicode": {
+        "codepoint": "U+10047",
+        "name": "LINEAR B SYLLABLE B062 PTE",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "pte",
+      "standard_phonetic_value": "pte",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_063",
+      "sign_id": "*63",
+      "bennett_number": "B063",
+      "catalog_number": 63,
+      "script": "Linear B",
+      "symbol": "𐁗",
+      "unicode": {
+        "codepoint": "U+10057",
+        "name": "LINEAR B SYMBOL B063",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "symbol_or_optional_sign",
+      "standard_transliteration": null,
+      "standard_phonetic_value": null,
+      "standard_status": "standard_unicode_symbol_untranscribed_or_optional",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "merged",
+      "ls_enhanced_resolution": {
+        "sign_id": "*63",
+        "original_status": "unknown",
+        "linear_b_distribution": "Mainland ONLY (Pylos, Thebes) - ZERO Cretan attestations",
+        "tentative_values": "/swi/, /zu/, or /swa/",
+        "resolution_status": "DEFINITIVE",
+        "confidence": 0.95,
+        "vectors": 11,
+        "vector_progression": {
+          "initial_analysis": 7,
+          "expanded_analysis": 11,
+          "phaistos_integration": 11
+        },
+        "phonetic_value": "Mainland Mycenaean phoneme (likely /swi/ cluster)",
+        "semantic_category": "dialectal_innovation",
+        "function": "Mainland Greek dialectal marker",
+        "interpretation": {
+          "primary": "Mainland Mycenaean Greek phonetic innovation completely absent from Cretan archives",
+          "secondary": "Dialectal differentiation between island Minoan-influenced Greek and mainland phonology",
+          "tertiary": "Likely encodes /swi/ consonant cluster absent from Cretan substrate",
+          "evidence_quality": "Definitive (validated by Linear B's actual language - Mycenaean Greek corpus)"
+        },
+        "dialectal_analysis": {
+          "cretan_greek": "Minoan substrate influence → conservative phonology",
+          "mainland_greek": "Phonetic innovation → new cluster formations",
+          "geographic_exclusivity": "Zero Cretan attestations = mainland-specific",
+          "sign_63_function": "Encodes mainland-only phoneme absent from island dialect"
+        },
+        "vector_evidence": {
+          "tier_1": {
+            "cypro_minoan": "9 'mainland' + 2 'pylos' + 21 'greek'",
+            "mycenaean_greek_expanded": "259 'greek' + 260 'mycenaean'",
+            "proto_sinaitic": "9 'greek'",
+            "aramaic": "8 'greek'",
+            "greek_expanded": "2776 'greek' (!!!)",
+            "pre_forms": "4 'greek'"
+          },
+          "tier_2": {
+            "demotic": "Pattern matches",
+            "geez": "Pattern matches",
+            "coptic": "Pattern matches",
+            "additional": "Plus 3 more scripts"
+          },
+          "tier_3": {
+            "count": 2,
+            "contribution": "Extended validation"
+          }
+        },
+        "key_evidence": [
+          "Mycenaean Greek EXPANDED: 260 'mycenaean' - Linear B's ACTUAL LANGUAGE validates!",
+          "Greek EXPANDED: 2,776 'greek' - MASSIVE dialectal corpus confirms",
+          "Geographic exclusivity: Zero Cretan attestations = mainland innovation",
+          "Validated by analyzing Linear B's own language corpus"
+        ],
+        "validation": {
+          "natural_strengthening": true,
+          "stage_1_to_2_gain": 4,
+          "stage_2_to_3_gain": 0,
+          "total_gain": 4,
+          "collapse": false,
+          "pattern_type": "Direct linguistic validation + geographic distribution"
+        },
+        "publication_ready": true,
+        "notes": "Validated by analyzing Linear B's actual language (Mycenaean Greek corpus). Geographic distribution (mainland-only) perfectly supports dialectal hypothesis. Strengthened significantly with Greek EXPANDED (2,776 occurrences)."
+      }
+    },
+    {
+      "entry_id": "linear_b_064",
+      "sign_id": "*64",
+      "bennett_number": "B064",
+      "catalog_number": 64,
+      "script": "Linear B",
+      "symbol": "𐁘",
+      "unicode": {
+        "codepoint": "U+10058",
+        "name": "LINEAR B SYMBOL B064",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "symbol_or_optional_sign",
+      "standard_transliteration": null,
+      "standard_phonetic_value": null,
+      "standard_status": "standard_unicode_symbol_untranscribed_or_optional",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_065",
+      "sign_id": "*65",
+      "bennett_number": "B065",
+      "catalog_number": 65,
+      "script": "Linear B",
+      "symbol": "𐀎",
+      "unicode": {
+        "codepoint": "U+1000E",
+        "name": "LINEAR B SYLLABLE B065 JU",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "ju",
+      "standard_phonetic_value": "ju",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_066",
+      "sign_id": "*66",
+      "bennett_number": "B066",
+      "catalog_number": 66,
+      "script": "Linear B",
+      "symbol": "𐁋",
+      "unicode": {
+        "codepoint": "U+1004B",
+        "name": "LINEAR B SYLLABLE B066 TA2",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "ta2",
+      "standard_phonetic_value": "ta2",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_067",
+      "sign_id": "*67",
+      "bennett_number": "B067",
+      "catalog_number": 67,
+      "script": "Linear B",
+      "symbol": "𐀑",
+      "unicode": {
+        "codepoint": "U+10011",
+        "name": "LINEAR B SYLLABLE B067 KI",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "ki",
+      "standard_phonetic_value": "ki",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_068",
+      "sign_id": "*68",
+      "bennett_number": "B068",
+      "catalog_number": 68,
+      "script": "Linear B",
+      "symbol": "𐁊",
+      "unicode": {
+        "codepoint": "U+1004A",
+        "name": "LINEAR B SYLLABLE B068 RO2",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "ro2",
+      "standard_phonetic_value": "ro2",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_069",
+      "sign_id": "*69",
+      "bennett_number": "B069",
+      "catalog_number": 69,
+      "script": "Linear B",
+      "symbol": "𐀶",
+      "unicode": {
+        "codepoint": "U+10036",
+        "name": "LINEAR B SYLLABLE B069 TU",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "tu",
+      "standard_phonetic_value": "tu",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_070",
+      "sign_id": "*70",
+      "bennett_number": "B070",
+      "catalog_number": 70,
+      "script": "Linear B",
+      "symbol": "𐀒",
+      "unicode": {
+        "codepoint": "U+10012",
+        "name": "LINEAR B SYLLABLE B070 KO",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "ko",
+      "standard_phonetic_value": "ko",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_071",
+      "sign_id": "*71",
+      "bennett_number": "B071",
+      "catalog_number": 71,
+      "script": "Linear B",
+      "symbol": "𐁃",
+      "unicode": {
+        "codepoint": "U+10043",
+        "name": "LINEAR B SYLLABLE B071 DWE",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "dwe",
+      "standard_phonetic_value": "dwe",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_072",
+      "sign_id": "*72",
+      "bennett_number": "B072",
+      "catalog_number": 72,
+      "script": "Linear B",
+      "symbol": "𐀟",
+      "unicode": {
+        "codepoint": "U+1001F",
+        "name": "LINEAR B SYLLABLE B072 PE",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "pe",
+      "standard_phonetic_value": "pe",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_073",
+      "sign_id": "*73",
+      "bennett_number": "B073",
+      "catalog_number": 73,
+      "script": "Linear B",
+      "symbol": "𐀖",
+      "unicode": {
+        "codepoint": "U+10016",
+        "name": "LINEAR B SYLLABLE B073 MI",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "mi",
+      "standard_phonetic_value": "mi",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_074",
+      "sign_id": "*74",
+      "bennett_number": "B074",
+      "catalog_number": 74,
+      "script": "Linear B",
+      "symbol": "𐀽",
+      "unicode": {
+        "codepoint": "U+1003D",
+        "name": "LINEAR B SYLLABLE B074 ZE",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "ze",
+      "standard_phonetic_value": "ze",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_075",
+      "sign_id": "*75",
+      "bennett_number": "B075",
+      "catalog_number": 75,
+      "script": "Linear B",
+      "symbol": "𐀸",
+      "unicode": {
+        "codepoint": "U+10038",
+        "name": "LINEAR B SYLLABLE B075 WE",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "we",
+      "standard_phonetic_value": "we",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_076",
+      "sign_id": "*76",
+      "bennett_number": "B076",
+      "catalog_number": 76,
+      "script": "Linear B",
+      "symbol": "𐁈",
+      "unicode": {
+        "codepoint": "U+10048",
+        "name": "LINEAR B SYLLABLE B076 RA2",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "ra2",
+      "standard_phonetic_value": "ra2",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_077",
+      "sign_id": "*77",
+      "bennett_number": "B077",
+      "catalog_number": 77,
+      "script": "Linear B",
+      "symbol": "𐀏",
+      "unicode": {
+        "codepoint": "U+1000F",
+        "name": "LINEAR B SYLLABLE B077 KA",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "ka",
+      "standard_phonetic_value": "ka",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_078",
+      "sign_id": "*78",
+      "bennett_number": "B078",
+      "catalog_number": 78,
+      "script": "Linear B",
+      "symbol": "𐀤",
+      "unicode": {
+        "codepoint": "U+10024",
+        "name": "LINEAR B SYLLABLE B078 QE",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "qe",
+      "standard_phonetic_value": "qe",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_079",
+      "sign_id": "*79",
+      "bennett_number": "B079",
+      "catalog_number": 79,
+      "script": "Linear B",
+      "symbol": "𐁙",
+      "unicode": {
+        "codepoint": "U+10059",
+        "name": "LINEAR B SYMBOL B079",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "symbol_or_optional_sign",
+      "standard_transliteration": null,
+      "standard_phonetic_value": null,
+      "standard_status": "standard_unicode_symbol_untranscribed_or_optional",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "merged",
+      "ls_enhanced_resolution": {
+        "sign_id": "*79",
+        "original_status": "unknown",
+        "linear_b_distribution": "Extremely rare (~handful of attestations)",
+        "resolution_status": "DEFINITIVE",
+        "confidence": 0.85,
+        "vectors": 5,
+        "vector_progression": {
+          "initial_analysis": 4,
+          "expanded_analysis": 4,
+          "phaistos_integration": 5
+        },
+        "phonetic_value": "Specialized marker (likely non-phonetic)",
+        "semantic_category": "specialized_unique",
+        "function": "Exceptional administrative notation",
+        "interpretation": {
+          "primary": "Specialized/unique administrative notation for exceptional circumstances",
+          "secondary": "Scribal idiosyncrasy or archive-specific formula marker",
+          "tertiary": "One-off palatial accounting notation for extraordinary administrative events",
+          "evidence_quality": "Definitive (5 vectors - threshold achieved via Phaistos integration)"
+        },
+        "phaistos_breakthrough": {
+          "status": "PROMOTED TO DEFINITIVE via Phaistos Disc",
+          "critical_vector": "Phaistos Disc: 9 'unique' occurrences",
+          "validation": "Phaistos itself is a UNIQUE spiral-inscribed administrative record (one-of-a-kind)",
+          "interpretation": "Validates exceptional/specialized notation hypothesis"
+        },
+        "vector_evidence": {
+          "tier_1": {
+            "cypro_minoan": "3 'specialized'",
+            "proto_sinaitic": "3 'rare' + 1 'specialized'",
+            "phaistos_disc": "9 'unique' (!!!) - CRITICAL 5TH VECTOR",
+            "pre_forms": "1 'specialized'"
+          },
+          "tier_2": {
+            "geez": "Pattern matches"
+          },
+          "tier_3": {
+            "count": 0
+          }
+        },
+        "key_evidence": [
+          "Phaistos Disc: 9 'unique' - CRITICAL evidence that promoted sign to DEFINITIVE status",
+          "Phaistos itself is unique (one-of-a-kind spiral administrative record)",
+          "Extremely rare Linear B usage consistent with exceptional function",
+          "Only sign that did NOT strengthen in Stage 2 (expanded analysis) - genuine specialized context"
+        ],
+        "validation": {
+          "natural_strengthening": false,
+          "stage_1_to_2_gain": 0,
+          "stage_2_to_3_gain": 1,
+          "total_gain": 1,
+          "collapse": false,
+          "pattern_type": "Specialized context requiring specific validation (Phaistos unique parallel)"
+        },
+        "publication_ready": true,
+        "notes": "PROMOTED TO DEFINITIVE via Phaistos Disc integration (4 → 5 vectors). This was the final sign holding 100% completion. Phaistos Disc's own 'unique' status (one-of-a-kind spiral administrative record) perfectly validates Sign *79 as specialized/exceptional notation. Achieves DEFINITIVE threshold completing Linear B decipherment at 11/11."
+      }
+    },
+    {
+      "entry_id": "linear_b_080",
+      "sign_id": "*80",
+      "bennett_number": "B080",
+      "catalog_number": 80,
+      "script": "Linear B",
+      "symbol": "𐀔",
+      "unicode": {
+        "codepoint": "U+10014",
+        "name": "LINEAR B SYLLABLE B080 MA",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "ma",
+      "standard_phonetic_value": "ma",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_081",
+      "sign_id": "*81",
+      "bennett_number": "B081",
+      "catalog_number": 81,
+      "script": "Linear B",
+      "symbol": "𐀓",
+      "unicode": {
+        "codepoint": "U+10013",
+        "name": "LINEAR B SYLLABLE B081 KU",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "ku",
+      "standard_phonetic_value": "ku",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_082",
+      "sign_id": "*82",
+      "bennett_number": "B082",
+      "catalog_number": 82,
+      "script": "Linear B",
+      "symbol": "𐁚",
+      "unicode": {
+        "codepoint": "U+1005A",
+        "name": "LINEAR B SYMBOL B082",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "symbol_or_optional_sign",
+      "standard_transliteration": null,
+      "standard_phonetic_value": null,
+      "standard_status": "standard_unicode_symbol_untranscribed_or_optional",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_083",
+      "sign_id": "*83",
+      "bennett_number": "B083",
+      "catalog_number": 83,
+      "script": "Linear B",
+      "symbol": "𐁛",
+      "unicode": {
+        "codepoint": "U+1005B",
+        "name": "LINEAR B SYMBOL B083",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "symbol_or_optional_sign",
+      "standard_transliteration": null,
+      "standard_phonetic_value": null,
+      "standard_status": "standard_unicode_symbol_untranscribed_or_optional",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "merged",
+      "ls_enhanced_resolution": {
+        "sign_id": "*83",
+        "original_status": "unknown",
+        "linear_b_distribution": "Functional fringe (extremely rare)",
+        "resolution_status": "DEFINITIVE",
+        "confidence": 0.96,
+        "vectors": 15,
+        "vector_progression": {
+          "initial_analysis": 10,
+          "expanded_analysis": 14,
+          "phaistos_integration": 15
+        },
+        "phonetic_value": "Foreign trade terminology (Semitic origin)",
+        "semantic_category": "levantine_trade_goods",
+        "function": "Luxury import tracking",
+        "interpretation": {
+          "primary": "Specialized micro-elite administrative encoding for Levantine luxury trade goods",
+          "secondary": "Foreign commercial terminology (Semitic trade vocabulary)",
+          "tertiary": "Exceptional goods tracking requiring specialized palatial notation",
+          "evidence_quality": "Definitive (uniform pattern with *86, *89, *91 proves systematic encoding)"
+        },
+        "trade_goods_context": {
+          "likely_referents": "Spices, purple dye, cedar, precious metals, specialty textiles",
+          "origin": "Levantine trade networks (Phoenician, Ugaritic merchants)",
+          "rarity": "Extremely rare Linear B usage (~handful of attestations)",
+          "palatial_function": "Elite goods requiring dedicated administrative tracking"
+        },
+        "vector_evidence": {
+          "tier_1": {
+            "linear_a": "9 'trade' + 11 'luxury'",
+            "cypro_minoan": "42 'trade' + 3 'goods'",
+            "cretan_hieroglyphs": "3 'trade' + 2 'levantine'",
+            "phaistos_disc": "4 'trade' + 8 'luxury' + 5 'goods'",
+            "proto_sinaitic": "1 'trade'",
+            "phoenician": "6 'trade' + 1 'luxury' + 1 'goods'",
+            "phoenician_expanded": "13 'trade' + 2 'luxury' + 2 'goods'",
+            "aramaic": "6 'trade' + 2 'foreign'",
+            "ugaritic": "12 'trade' + 1 'foreign'"
+          },
+          "tier_2": {
+            "demotic": "Pattern matches",
+            "paleo_hebrew": "Pattern matches",
+            "geez": "Pattern matches",
+            "greek_expanded": "4 'trade' + 4 'foreign' + 3 'goods'",
+            "additional": "Plus 3 more scripts"
+          },
+          "tier_3": {
+            "count": 4,
+            "contribution": "Global validation corpus"
+          }
+        },
+        "key_evidence": [
+          "Phoenician EXPANDED: 13 'trade' - commercial context confirmed",
+          "Phaistos Disc: 8 'luxury' + 5 'goods' - elite administrative tracking",
+          "Ugaritic: 12 'trade' - Bronze Age Levantine trade hub validation",
+          "IDENTICAL strengthening with *86, *89, *91 proves systematic encoding"
+        ],
+        "operator_prediction_validated": {
+          "prediction": "Watch how much byblos actually will match up along with proto-sinaitic and phoenician",
+          "result": "100% confirmed - all Levantine scripts show trade correlation",
+          "systematic_pattern": "All four signs (*83-*91) strengthen identically"
+        },
+        "validation": {
+          "natural_strengthening": true,
+          "stage_1_to_2_gain": 4,
+          "stage_2_to_3_gain": 1,
+          "total_gain": 5,
+          "collapse": false,
+          "pattern_type": "Identical pattern with *86, *89, *91 = systematic, not coincidence"
+        },
+        "publication_ready": true,
+        "notes": "Part of systematic four-sign set (*83-*91) with IDENTICAL patterns. All four strengthen identically (+5 vectors each, same evidence) - proves deliberate palatial system for foreign trade goods, not ad hoc notation. Operator prediction 100% validated."
+      }
+    },
+    {
+      "entry_id": "linear_b_085",
+      "sign_id": "*85",
+      "bennett_number": "B085",
+      "catalog_number": 85,
+      "script": "Linear B",
+      "symbol": "𐁂",
+      "unicode": {
+        "codepoint": "U+10042",
+        "name": "LINEAR B SYLLABLE B085 AU",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "au",
+      "standard_phonetic_value": "au",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_086",
+      "sign_id": "*86",
+      "bennett_number": "B086",
+      "catalog_number": 86,
+      "script": "Linear B",
+      "symbol": "𐁜",
+      "unicode": {
+        "codepoint": "U+1005C",
+        "name": "LINEAR B SYMBOL B086",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "symbol_or_optional_sign",
+      "standard_transliteration": null,
+      "standard_phonetic_value": null,
+      "standard_status": "standard_unicode_symbol_untranscribed_or_optional",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "merged",
+      "ls_enhanced_resolution": {
+        "sign_id": "*86",
+        "original_status": "unknown",
+        "linear_b_distribution": "Functional fringe (~6 total attestations)",
+        "resolution_status": "DEFINITIVE",
+        "confidence": 0.96,
+        "vectors": 15,
+        "vector_progression": {
+          "initial_analysis": 10,
+          "expanded_analysis": 14,
+          "phaistos_integration": 15
+        },
+        "phonetic_value": "Foreign trade terminology (Semitic origin)",
+        "semantic_category": "levantine_trade_goods",
+        "function": "Luxury import tracking",
+        "interpretation": {
+          "primary": "Specialized micro-elite administrative encoding for Levantine luxury trade goods",
+          "secondary": "Foreign commercial terminology (Semitic trade vocabulary)",
+          "tertiary": "Exceptional goods tracking requiring specialized palatial notation",
+          "evidence_quality": "Definitive (uniform pattern with *83, *89, *91 proves systematic encoding)"
+        },
+        "trade_goods_context": {
+          "likely_referents": "Spices, purple dye, cedar, precious metals, specialty textiles",
+          "origin": "Levantine trade networks (Phoenician, Ugaritic merchants)",
+          "rarity": "Extremely rare Linear B usage (~6 attestations total)",
+          "palatial_function": "Elite goods requiring dedicated administrative tracking"
+        },
+        "vector_evidence": {
+          "tier_1": {
+            "linear_a": "9 'trade' + 11 'luxury'",
+            "cypro_minoan": "42 'trade' + 3 'goods'",
+            "cretan_hieroglyphs": "3 'trade' + 2 'levantine'",
+            "phaistos_disc": "4 'trade' + 8 'luxury' + 5 'goods'",
+            "proto_sinaitic": "1 'trade'",
+            "phoenician": "6 'trade' + 1 'luxury' + 1 'goods'",
+            "phoenician_expanded": "13 'trade' + 2 'luxury' + 2 'goods'",
+            "aramaic": "6 'trade' + 2 'foreign'",
+            "ugaritic": "12 'trade' + 1 'foreign'"
+          },
+          "tier_2": {
+            "demotic": "Pattern matches",
+            "paleo_hebrew": "Pattern matches",
+            "geez": "Pattern matches",
+            "greek_expanded": "4 'trade' + 4 'foreign' + 3 'goods'",
+            "additional": "Plus 3 more scripts"
+          },
+          "tier_3": {
+            "count": 4,
+            "contribution": "Global validation corpus"
+          }
+        },
+        "key_evidence": [
+          "Phoenician EXPANDED: 13 'trade' - commercial context confirmed",
+          "Phaistos Disc: 8 'luxury' + 5 'goods' - elite administrative tracking",
+          "Ugaritic: 12 'trade' - Bronze Age Levantine trade hub validation",
+          "IDENTICAL strengthening with *83, *89, *91 proves systematic encoding"
+        ],
+        "validation": {
+          "natural_strengthening": true,
+          "stage_1_to_2_gain": 4,
+          "stage_2_to_3_gain": 1,
+          "total_gain": 5,
+          "collapse": false,
+          "pattern_type": "Identical pattern with *83, *89, *91 = systematic, not coincidence"
+        },
+        "publication_ready": true,
+        "notes": "Part of systematic four-sign set (*83-*91) with IDENTICAL patterns. Rarest sign (~6 attestations) but still shows perfect pattern match. Proves systematic palatial encoding even for exceptional administrative contexts."
+      }
+    },
+    {
+      "entry_id": "linear_b_087",
+      "sign_id": "*87",
+      "bennett_number": "B087",
+      "catalog_number": 87,
+      "script": "Linear B",
+      "symbol": "𐁌",
+      "unicode": {
+        "codepoint": "U+1004C",
+        "name": "LINEAR B SYLLABLE B087 TWE",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "twe",
+      "standard_phonetic_value": "twe",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_089",
+      "sign_id": "*89",
+      "bennett_number": "B089",
+      "catalog_number": 89,
+      "script": "Linear B",
+      "symbol": "𐁝",
+      "unicode": {
+        "codepoint": "U+1005D",
+        "name": "LINEAR B SYMBOL B089",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "symbol_or_optional_sign",
+      "standard_transliteration": null,
+      "standard_phonetic_value": null,
+      "standard_status": "standard_unicode_symbol_untranscribed_or_optional",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "merged",
+      "ls_enhanced_resolution": {
+        "sign_id": "*89",
+        "original_status": "unknown",
+        "linear_b_distribution": "Functional fringe (extremely rare)",
+        "resolution_status": "DEFINITIVE",
+        "confidence": 0.96,
+        "vectors": 15,
+        "vector_progression": {
+          "initial_analysis": 10,
+          "expanded_analysis": 14,
+          "phaistos_integration": 15
+        },
+        "phonetic_value": "Foreign trade terminology (Semitic origin)",
+        "semantic_category": "levantine_trade_goods",
+        "function": "Luxury import tracking",
+        "interpretation": {
+          "primary": "Specialized micro-elite administrative encoding for Levantine luxury trade goods",
+          "secondary": "Foreign commercial terminology (Semitic trade vocabulary)",
+          "tertiary": "Exceptional goods tracking requiring specialized palatial notation",
+          "evidence_quality": "Definitive (uniform pattern with *83, *86, *91 proves systematic encoding)"
+        },
+        "trade_goods_context": {
+          "likely_referents": "Spices, purple dye, cedar, precious metals, specialty textiles",
+          "origin": "Levantine trade networks (Phoenician, Ugaritic merchants)",
+          "rarity": "Extremely rare Linear B usage (~handful of attestations)",
+          "palatial_function": "Elite goods requiring dedicated administrative tracking"
+        },
+        "vector_evidence": {
+          "tier_1": {
+            "linear_a": "9 'trade' + 11 'luxury'",
+            "cypro_minoan": "42 'trade' + 3 'goods'",
+            "cretan_hieroglyphs": "3 'trade' + 2 'levantine'",
+            "phaistos_disc": "4 'trade' + 8 'luxury' + 5 'goods'",
+            "proto_sinaitic": "1 'trade'",
+            "phoenician": "6 'trade' + 1 'luxury' + 1 'goods'",
+            "phoenician_expanded": "13 'trade' + 2 'luxury' + 2 'goods'",
+            "aramaic": "6 'trade' + 2 'foreign'",
+            "ugaritic": "12 'trade' + 1 'foreign'"
+          },
+          "tier_2": {
+            "demotic": "Pattern matches",
+            "paleo_hebrew": "Pattern matches",
+            "geez": "Pattern matches",
+            "greek_expanded": "4 'trade' + 4 'foreign' + 3 'goods'",
+            "additional": "Plus 3 more scripts"
+          },
+          "tier_3": {
+            "count": 4,
+            "contribution": "Global validation corpus"
+          }
+        },
+        "key_evidence": [
+          "Phoenician EXPANDED: 13 'trade' - commercial context confirmed",
+          "Phaistos Disc: 8 'luxury' + 5 'goods' - elite administrative tracking",
+          "Ugaritic: 12 'trade' - Bronze Age Levantine trade hub validation",
+          "IDENTICAL strengthening with *83, *86, *91 proves systematic encoding"
+        ],
+        "validation": {
+          "natural_strengthening": true,
+          "stage_1_to_2_gain": 4,
+          "stage_2_to_3_gain": 1,
+          "total_gain": 5,
+          "collapse": false,
+          "pattern_type": "Identical pattern with *83, *86, *91 = systematic, not coincidence"
+        },
+        "publication_ready": true,
+        "notes": "Part of systematic four-sign set (*83-*91) with IDENTICAL patterns. All four signs strengthen identically proving deliberate palatial administrative system for exceptional foreign trade goods."
+      }
+    },
+    {
+      "entry_id": "linear_b_090",
+      "sign_id": "*90",
+      "bennett_number": "B090",
+      "catalog_number": 90,
+      "script": "Linear B",
+      "symbol": "𐁄",
+      "unicode": {
+        "codepoint": "U+10044",
+        "name": "LINEAR B SYLLABLE B090 DWO",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "dwo",
+      "standard_phonetic_value": "dwo",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "none"
+    },
+    {
+      "entry_id": "linear_b_091",
+      "sign_id": "*91",
+      "bennett_number": "B091",
+      "catalog_number": 91,
+      "script": "Linear B",
+      "symbol": "𐁍",
+      "unicode": {
+        "codepoint": "U+1004D",
+        "name": "LINEAR B SYLLABLE B091 TWO",
+        "block": "Linear B Syllabary",
+        "plane": "Supplementary Multilingual Plane"
+      },
+      "sign_type": "syllabogram",
+      "standard_transliteration": "two",
+      "standard_phonetic_value": "two",
+      "standard_status": "standard_unicode_syllable",
+      "directionality": "left-to-right",
+      "source_basis": [
+        "Unicode Linear B Syllabary block",
+        "NotoSansLinearB cmap verification"
+      ],
+      "ls_enhancement_status": "merged",
+      "ls_enhanced_resolution": {
+        "sign_id": "*91",
+        "original_status": "unknown",
+        "linear_b_distribution": "Functional fringe (extremely rare)",
+        "resolution_status": "DEFINITIVE",
+        "confidence": 0.96,
+        "vectors": 15,
+        "vector_progression": {
+          "initial_analysis": 10,
+          "expanded_analysis": 14,
+          "phaistos_integration": 15
+        },
+        "phonetic_value": "Foreign trade terminology (Semitic origin)",
+        "semantic_category": "levantine_trade_goods",
+        "function": "Luxury import tracking",
+        "interpretation": {
+          "primary": "Specialized micro-elite administrative encoding for Levantine luxury trade goods",
+          "secondary": "Foreign commercial terminology (Semitic trade vocabulary)",
+          "tertiary": "Exceptional goods tracking requiring specialized palatial notation",
+          "evidence_quality": "Definitive (uniform pattern with *83, *86, *89 proves systematic encoding)"
+        },
+        "trade_goods_context": {
+          "likely_referents": "Spices, purple dye, cedar, precious metals, specialty textiles",
+          "origin": "Levantine trade networks (Phoenician, Ugaritic merchants)",
+          "rarity": "Extremely rare Linear B usage (~handful of attestations)",
+          "palatial_function": "Elite goods requiring dedicated administrative tracking"
+        },
+        "vector_evidence": {
+          "tier_1": {
+            "linear_a": "9 'trade' + 11 'luxury'",
+            "cypro_minoan": "42 'trade' + 3 'goods'",
+            "cretan_hieroglyphs": "3 'trade' + 2 'levantine'",
+            "phaistos_disc": "4 'trade' + 8 'luxury' + 5 'goods'",
+            "proto_sinaitic": "1 'trade'",
+            "phoenician": "6 'trade' + 1 'luxury' + 1 'goods'",
+            "phoenician_expanded": "13 'trade' + 2 'luxury' + 2 'goods'",
+            "aramaic": "6 'trade' + 2 'foreign'",
+            "ugaritic": "12 'trade' + 1 'foreign'"
+          },
+          "tier_2": {
+            "demotic": "Pattern matches",
+            "paleo_hebrew": "Pattern matches",
+            "geez": "Pattern matches",
+            "greek_expanded": "4 'trade' + 4 'foreign' + 3 'goods'",
+            "additional": "Plus 3 more scripts"
+          },
+          "tier_3": {
+            "count": 4,
+            "contribution": "Global validation corpus"
+          }
+        },
+        "key_evidence": [
+          "Phoenician EXPANDED: 13 'trade' - commercial context confirmed",
+          "Phaistos Disc: 8 'luxury' + 5 'goods' - elite administrative tracking",
+          "Ugaritic: 12 'trade' - Bronze Age Levantine trade hub validation",
+          "IDENTICAL strengthening with *83, *86, *89 proves systematic encoding"
+        ],
+        "validation": {
+          "natural_strengthening": true,
+          "stage_1_to_2_gain": 4,
+          "stage_2_to_3_gain": 1,
+          "total_gain": 5,
+          "collapse": false,
+          "pattern_type": "Identical pattern with *83, *86, *89 = systematic, not coincidence"
+        },
+        "publication_ready": true,
+        "notes": "Part of systematic four-sign set (*83-*91) with IDENTICAL patterns. Completes the Levantine trade goods quartet. All four signs represent Bronze Age Mycenaean palatial apparatus tracking foreign luxury imports through dedicated administrative notation."
+      },
+      "merge_note": "LS enhanced interpretation is preserved separately from the Unicode/standard syllabic value. Review before replacing standard transliteration in public releases."
+    }
+  ],
+  "indexes": {
+    "by_sign_id": {
+      "*01": 0,
+      "*02": 1,
+      "*03": 2,
+      "*04": 3,
+      "*05": 4,
+      "*06": 5,
+      "*07": 6,
+      "*08": 7,
+      "*09": 8,
+      "*10": 9,
+      "*11": 10,
+      "*12": 11,
+      "*13": 12,
+      "*14": 13,
+      "*15": 14,
+      "*16": 15,
+      "*17": 16,
+      "*18": 17,
+      "*19": 18,
+      "*20": 19,
+      "*21": 20,
+      "*22": 21,
+      "*23": 22,
+      "*24": 23,
+      "*25": 24,
+      "*26": 25,
+      "*27": 26,
+      "*28": 27,
+      "*29": 28,
+      "*30": 29,
+      "*31": 30,
+      "*32": 31,
+      "*33": 32,
+      "*34": 33,
+      "*35": 34,
+      "*36": 35,
+      "*37": 36,
+      "*38": 37,
+      "*39": 38,
+      "*40": 39,
+      "*41": 40,
+      "*42": 41,
+      "*43": 42,
+      "*44": 43,
+      "*45": 44,
+      "*46": 45,
+      "*47": 46,
+      "*48": 47,
+      "*49": 48,
+      "*50": 49,
+      "*51": 50,
+      "*52": 51,
+      "*53": 52,
+      "*54": 53,
+      "*55": 54,
+      "*56": 55,
+      "*57": 56,
+      "*58": 57,
+      "*59": 58,
+      "*60": 59,
+      "*61": 60,
+      "*62": 61,
+      "*63": 62,
+      "*64": 63,
+      "*65": 64,
+      "*66": 65,
+      "*67": 66,
+      "*68": 67,
+      "*69": 68,
+      "*70": 69,
+      "*71": 70,
+      "*72": 71,
+      "*73": 72,
+      "*74": 73,
+      "*75": 74,
+      "*76": 75,
+      "*77": 76,
+      "*78": 77,
+      "*79": 78,
+      "*80": 79,
+      "*81": 80,
+      "*82": 81,
+      "*83": 82,
+      "*85": 83,
+      "*86": 84,
+      "*87": 85,
+      "*89": 86,
+      "*90": 87,
+      "*91": 88
+    },
+    "by_bennett_number": {
+      "B001": 0,
+      "B002": 1,
+      "B003": 2,
+      "B004": 3,
+      "B005": 4,
+      "B006": 5,
+      "B007": 6,
+      "B008": 7,
+      "B009": 8,
+      "B010": 9,
+      "B011": 10,
+      "B012": 11,
+      "B013": 12,
+      "B014": 13,
+      "B015": 14,
+      "B016": 15,
+      "B017": 16,
+      "B018": 17,
+      "B019": 18,
+      "B020": 19,
+      "B021": 20,
+      "B022": 21,
+      "B023": 22,
+      "B024": 23,
+      "B025": 24,
+      "B026": 25,
+      "B027": 26,
+      "B028": 27,
+      "B029": 28,
+      "B030": 29,
+      "B031": 30,
+      "B032": 31,
+      "B033": 32,
+      "B034": 33,
+      "B035": 34,
+      "B036": 35,
+      "B037": 36,
+      "B038": 37,
+      "B039": 38,
+      "B040": 39,
+      "B041": 40,
+      "B042": 41,
+      "B043": 42,
+      "B044": 43,
+      "B045": 44,
+      "B046": 45,
+      "B047": 46,
+      "B048": 47,
+      "B049": 48,
+      "B050": 49,
+      "B051": 50,
+      "B052": 51,
+      "B053": 52,
+      "B054": 53,
+      "B055": 54,
+      "B056": 55,
+      "B057": 56,
+      "B058": 57,
+      "B059": 58,
+      "B060": 59,
+      "B061": 60,
+      "B062": 61,
+      "B063": 62,
+      "B064": 63,
+      "B065": 64,
+      "B066": 65,
+      "B067": 66,
+      "B068": 67,
+      "B069": 68,
+      "B070": 69,
+      "B071": 70,
+      "B072": 71,
+      "B073": 72,
+      "B074": 73,
+      "B075": 74,
+      "B076": 75,
+      "B077": 76,
+      "B078": 77,
+      "B079": 78,
+      "B080": 79,
+      "B081": 80,
+      "B082": 81,
+      "B083": 82,
+      "B085": 83,
+      "B086": 84,
+      "B087": 85,
+      "B089": 86,
+      "B090": 87,
+      "B091": 88
+    },
+    "by_unicode_codepoint": {
+      "U+10005": 0,
+      "U+1002B": 1,
+      "U+1001E": 2,
+      "U+10033": 3,
+      "U+10035": 4,
+      "U+10019": 5,
+      "U+10007": 6,
+      "U+10000": 7,
+      "U+1002E": 8,
+      "U+10004": 9,
+      "U+10021": 10,
+      "U+10030": 11,
+      "U+10015": 12,
+      "U+10008": 13,
+      "U+10017": 14,
+      "U+10023": 15,
+      "U+1003C": 16,
+      "U+10050": 17,
+      "U+10051": 18,
+      "U+1003F": 19,
+      "U+10025": 20,
+      "U+10052": 21,
+      "U+10018": 22,
+      "U+1001A": 23,
+      "U+10040": 24,
+      "U+1002C": 25,
+      "U+10029": 26,
+      "U+10002": 27,
+      "U+10046": 28,
+      "U+1001B": 29,
+      "U+1002D": 30,
+      "U+10026": 31,
+      "U+10049": 32,
+      "U+10053": 33,
+      "U+1000D": 35,
+      "U+10034": 36,
+      "U+10001": 37,
+      "U+10020": 38,
+      "U+10039": 39,
+      "U+1002F": 40,
+      "U+1003A": 41,
+      "U+10041": 42,
+      "U+10010": 43,
+      "U+10006": 44,
+      "U+1000B": 45,
+      "U+10054": 46,
+      "U+10045": 47,
+      "U+10055": 48,
+      "U+10022": 49,
+      "U+10009": 50,
+      "U+1001C": 51,
+      "U+1002A": 52,
+      "U+10037": 53,
+      "U+1001D": 54,
+      "U+10056": 55,
+      "U+1000A": 56,
+      "U+10031": 57,
+      "U+10032": 58,
+      "U+10028": 59,
+      "U+10003": 60,
+      "U+10047": 61,
+      "U+10057": 62,
+      "U+10058": 63,
+      "U+1000E": 64,
+      "U+1004B": 65,
+      "U+10011": 66,
+      "U+1004A": 67,
+      "U+10036": 68,
+      "U+10012": 69,
+      "U+10043": 70,
+      "U+1001F": 71,
+      "U+10016": 72,
+      "U+1003D": 73,
+      "U+10038": 74,
+      "U+10048": 75,
+      "U+1000F": 76,
+      "U+10024": 77,
+      "U+10059": 78,
+      "U+10014": 79,
+      "U+10013": 80,
+      "U+1005A": 81,
+      "U+1005B": 82,
+      "U+10042": 83,
+      "U+1005C": 84,
+      "U+1004C": 85,
+      "U+1005D": 86,
+      "U+10044": 87,
+      "U+1004D": 88
+    },
+    "ls_enhanced_sign_ids": [
+      "*18",
+      "*34",
+      "*35",
+      "*47",
+      "*49",
+      "*63",
+      "*79",
+      "*83",
+      "*86",
+      "*89",
+      "*91"
+    ],
+    "entries_requiring_review": [
+      "*91",
+      "*35"
+    ]
+  },
+  "audit": {
+    "merged_signs": [
+      "*18",
+      "*34",
+      "*35",
+      "*47",
+      "*49",
+      "*63",
+      "*79",
+      "*83",
+      "*86",
+      "*89",
+      "*91"
+    ],
+    "custom_unencoded_signs": [
+      "*35"
+    ],
+    "standard_value_conflicts_or_dual_readings": [
+      "*91"
+    ],
+    "notes": [
+      "The Unicode Linear B Syllabary block yields 88 encoded sign characters via Python unicodedata and the uploaded NotoSansLinearB cmap.",
+      "The supplied LS JSON contributes 11 enhanced resolutions.",
+      "Modern treatment often folds old *35 into *34; older publications may distinguish them.",
+      "Sign *91 is Unicode-encoded as LINEAR B SYLLABLE B091 TWO; the LS trade-goods interpretation is retained as a separate enhanced layer for review."
+    ]
+  }
+}
