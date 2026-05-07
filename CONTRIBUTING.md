@@ -5,7 +5,7 @@
 
 > Read the [Code of Conduct](CODE_OF_CONDUCT.md) first. Evidentiary merit, methodological rigour, and intellectual honesty — nothing else.
 
-The Linear B Decipherment Project resolved 70 years of open questions in the Bronze Age Aegean syllabary. Every contribution — whether a new correlation vector, a lexicon correction, a methodology improvement, or a phase log addendum — matters. The research is alive. Make it better.
+The Linear B Decipherment Project resolved 70 years of open questions in the Bronze Age Aegean syllabary — questions left by Michael Ventris and John Chadwick when they cracked the core of the script in 1952. They built the foundation. This project closes the gap they left. Every contribution — whether a new correlation vector, a lexicon correction, a methodology improvement, or a phase log addendum — matters. The research is alive. Make it better.
 
 ---
 

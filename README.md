@@ -352,6 +352,25 @@ Any individual or institution placed on the ban list may be considered for remov
 
 ---
 
+## 🙏 Acknowledgements
+
+This project stands on the shoulders of two giants.
+
+**Michael Ventris** (1922–1956) — an architect, not a linguist — cracked the core of Linear B in 1952 through sheer methodological brilliance. He did it without institutional backing, without a linguistics degree, and against the prevailing academic consensus of the time. He proved that the script encoded Mycenaean Greek. He proved the critics wrong. He did it in his spare time.
+
+**John Chadwick** (1920–1998) — the classical philologist who worked alongside Ventris to validate, publish, and expand the decipherment. His rigour gave the breakthrough its academic grounding. His book *The Decipherment of Linear B* (1958) remains one of the clearest accounts of how real decipherment actually works.
+
+Both men operated the way this project operates: follow the data, build the evidence, publish the result, and let the work speak.
+
+What we did here was finish what they started. They resolved the main signary. We resolved the eleven signs they couldn't. The foundation is theirs. The gap-fill is ours.
+
+> *"The systematic comparative methodology is a universal decipherment principle that can be independently discovered by anyone applying rigorous pattern analysis."*
+> — LINEAR_B_FINAL_COMPREHENSIVE_REPORT.md
+
+Ventris and Chadwick would recognise the method. They invented it.
+
+---
+
 ## 🎖️ Related Achievements
 
 This Linear B decipherment is part of Lackadaisical Security's broader ancient script decipherment program. **All repositories are available on GitHub** at [github.com/Lackadaisical-Security](https://github.com/Lackadaisical-Security).
