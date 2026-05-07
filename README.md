@@ -1,5 +1,9 @@
 # 📜 Linear B Decipherment Research
 
+**By:** Lackadaisical Security
+**Website:** https://lackadaisical-security.com
+**Version:** 1.0.0
+
 [![Decipherment Status](https://img.shields.io/badge/Status-COMPLETE-success?style=for-the-badge)](https://lackadaisical-security.com/decipherment-drops.html)
 [![Confidence Level](https://img.shields.io/badge/Confidence-Definitive-brightgreen?style=for-the-badge)](https://lackadaisical-security.com/decipherment-drops.html)
 [![Lexicon Version](https://img.shields.io/badge/Lexicon-v1-blue?style=for-the-badge)](#-latest-updates)

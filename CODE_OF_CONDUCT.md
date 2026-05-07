@@ -1,135 +1,189 @@
-# ☠️ Code of Conduct
+# Code of Conduct
 
-### *"Merit or GTFO. This is not a safe space. This is a research space."*
+## Philosophy
 
----
+The Linear B Decipherment Project is built on **technical excellence, evidentiary rigor, and old-school hacker ethics**. This project operates under leet-era principles: your analysis quality, methodology, and actual contributions matter — nothing else. If you can read a clay tablet corpus, run a cross-script mega-correlation, and operate with intellectual honesty, you're in.
 
-## The One Rule
-
-**Produce or don't participate.**
-
-Everything else is noise.
+**No politics. No bullshit. Just ancient script research that actually holds up.**
 
 ---
 
-## What This Is
+## Core Principles
 
-This is a linguistics and cryptanalysis research repository operated by Lackadaisical Security. We decode ancient scripts. We publish results. We don't babysit.
+### 1. Merit is King
+- **Contributions are judged by evidentiary merit only** — methodology quality, vector count, source rigour, reproducibility
+- Expertise level doesn't matter if you're willing to learn and show your work
+- Demonstrate your analysis. Cite your corpus. Defend your readings with data
+- If your interpretation has weaknesses, acknowledge them or explain why they stand anyway
 
-This project operates under the same principles that built the early internet, the demoscene, and every serious underground technical community that ever produced anything worth reading:
+### 2. Technical Competence Over Everything
+- Know what you're talking about or say so upfront
+- Understand the linguistic fundamentals behind your claims
+- Research before you ask — read the phase logs, check the lexicon, understand the methodology
+- "This sign looks like X" is not an argument. "This sign converges with X across Y corpus entries at Z confidence" is an argument
+- If you claim publication-ready confidence, provide vectors and methodology
 
-- **You are judged by your output, not your identity.**
-- **You are judged by your reasoning, not your feelings.**
-- **You are judged by your commits, not your credentials.**
+### 3. Intellectual Honesty
+- Don't plagiarize research or datasets. Cite your sources and prior work
+- If you don't know something, say so — nobody expects omniscience across 36 ancient scripts
+- Admit when your reading has gaps or depends on contested assumptions
+- Document your testing honestly — include failure modes, low-confidence readings, edge cases
+- Cherry-picking correlation hits is bullshit — report your full vector set including non-matches
 
----
+### 4. Hacker Ethics (Classic)
+- **Knowledge is a fundamental drive** — build analyses that advance understanding
+- **Transparency over authority** — no appealing to credentials, show the work
+- **Methodology wants to be free** — open-source the framework, publish the findings
+- **You can crack ancient scripts** — make elegant systems, not credential-laundering exercises
+- **Technology can unlock history** — build tools that serve the record, not the institution
 
-## What We Don't Do
-
-We do not:
-
-- ❌ Moderate based on who you are
-- ❌ Issue warnings for hurt feelings
-- ❌ Maintain a list of approved language
-- ❌ Run committees to evaluate the sensitivity of your terminology
-- ❌ Remove technically correct contributions for cultural reasons
-- ❌ Accept institutional affiliation as a substitute for demonstrated competence
-- ❌ Enforce ideological conformity as a contribution requirement
-- ❌ Apologize for publishing accurate research
-
-If you need a land acknowledgment, a pronoun field, or an equity impact statement to contribute to ancient script decipherment, this is not the repository for you.
-
----
-
-## What We Do
-
-We do:
-
-- ✅ Review contributions on technical merit
-- ✅ Accept corrections when they're backed by evidence
-- ✅ Cite sources and publish methodology
-- ✅ Disagree openly and on the record
-- ✅ Reject low-quality work without explanation
-- ✅ Ban bad actors permanently and without appeal
-- ✅ Publish results that contradict institutional consensus when the data supports it
+### 5. Operational Research Standards
+- Every claim needs a source. Every reading needs a vector. Every confidence score needs a basis
+- Test your interpretations against the archaeological record — the clay doesn't lie
+- Assume adversarial review — peer pressure, institutional bias, and motivated reasoning are all real threats to accuracy
+- Document your assumptions explicitly — what corpus did you use, what did you exclude, why
+- Privacy and independence matter: this project operates outside institutional gatekeeping by design
 
 ---
 
-## Participation Tiers
+## What We Expect
 
-### 🔓 Ghost Tier (Open)
+### Research Standards
+- Submit complete analyses — methodology, evidence, confidence estimate, and source citations
+- Follow existing document structure — phase logs are formatted consistently, don't reformat them
+- Provide reproducible findings — if someone else runs your corpus through the same pipeline, they should get the same result
+- Security/evidence first — no unfounded assertions, no hand-waving, no "it seems like"
+- Cross-corpus consistency — validate symbol meanings against the full comparative dataset, not just the one that agrees with you
 
-Anyone can read, fork, and apply the methodology. No registration required. No approval required. The work is public.
+### Communication Standards
+- Be direct and honest — no passive-aggressive nonsense
+- Technical criticism is not personal — "your vector count is insufficient for this claim" means add vectors, not feelings
+- If someone's reading is wrong, explain WHY and HOW to correct it with data
+- Argue about methodology, phonotactics, and archaeology — not personalities
+- Keep discussions on-topic and focused on the research
 
-### ⚡ Contributor Tier (Earned)
-
-Accepted contributions require:
-
-1. **Evidence** — claim + data + methodology, not claim alone
-2. **Reproducibility** — your findings must be checkable
-3. **Accuracy** — errors corrected on discovery, not defended
-
-Contributing garbage earns a ban. Contributing something useful earns respect. That's it. That's the whole system.
-
-### ☠️ Banned Tier (Permanent)
-
-You get banned for:
-
-- Academic fraud or misattribution of this work
-- Institutional access in violation of the Ghost License v1.0
-- Deliberate injection of false data into research threads
-- Using this repository to launder institutional credentials
-
-See also: [🚫 Banned Institutions in README.md](./README.md#-institutionally-banned-entities)
-
-Bans are **permanent**. There is no appeals process. There is a redemption process — read the README.
+### Collaboration Standards
+- Review others' submissions honestly — don't approve underdeveloped analyses
+- Respond to feedback constructively — defend your approach with evidence, not authority
+- Share knowledge when asked — the field advances when researchers teach
+- If you commit to an analysis, deliver it or say why you can't
+- Open your methodology — don't hoard research techniques
 
 ---
 
-## On Disagreement
+## What We Don't Tolerate
 
-Disagree with the methodology? Say so. Show your work. The Operator has been wrong before and will be again. The difference is the correction comes with evidence, not vibes.
+### Hard Bans (Instant Removal)
+- **Academic fraud or misattribution** — claiming this work as your own or falsifying findings
+- **Deliberate injection of false data** into lexicons, phase logs, or correlation matrices
+- **Institutional access in violation of the Ghost License v1.0** — particularly from [banned institutions](./README.md#-institutionally-banned-entities)
+- **Using this repository to launder institutional credentials** — your affiliation doesn't validate your analysis here
+- **Doxxing, harassment, or stalking** — this is a research project, not a drama operation
+- **Plagiarising methodology or datasets** and presenting them without attribution
 
-Argument by authority, appeal to emotion, or appeal to institutional prestige carries zero weight here. The Linear B tablets don't care which university you work for. The script predates your citation style guide by three thousand years.
+### Soft Bans (Warning → Removal)
+- Repeatedly submitting low-quality analysis after correction
+- Arguing against methodology without presenting counter-evidence ("this approach is wrong" — cool, show your corpus)
+- Not following evidentiary standards after being told multiple times
+- Wasting maintainer time with questions covered in the phase logs or methodology document
+- Submitting readings that introduce ideological framing into linguistic analysis without disclosure
+
+### What's NOT a Violation
+- Using direct or blunt language in technical discussions — we're adults
+- Disagreeing strongly with an interpretation — if you have better data, present it
+- Calling out weak analyses — that's literally what research review is for
+- Being skeptical of high confidence claims — "prove it" applies everywhere
+- Hacker culture, memes, and leet-era references — this is part of the tradition
+- Disagreeing with institutional consensus — if the data contradicts the textbook, the textbook is wrong
 
 ---
 
-## On Tone
+## Legal & Ethical Use
 
-This is a leet-era operation. Directness is not hostility. Criticism is not harassment. Blunt technical feedback is standard.
+### Mandatory Requirements
+This is not negotiable. **You MUST:**
+- Comply with both licenses — Ghost License v1.0 and Ancient Scripts Attribution License v1.0 simultaneously
+- Provide proper attribution when referencing, publishing, or building on this work
+- Respect the banned institutions list — do not submit on behalf of prohibited entities
+- Conduct yourself within applicable laws in your jurisdiction
+- Follow responsible disclosure — if you find an error in published research, report it to the maintainer before publishing a public correction
 
-If someone tells you your analysis is wrong and explains why, that is a contribution, not an attack.
+### Prohibited Activities
+You will be banned and potentially reported if you:
+- Misattribute this research in academic publications
+- Use this repository to claim institutional credit for work conducted here
+- Strip attribution from lexicons, datasets, or methodology documents before redistribution
+- Violate the Ghost License v1.0 by using this work for commercial purposes without approval
+- Use findings to support fraudulent academic submissions
 
-If you can't tell the difference, reconsider participating.
+**If you get caught plagiarising this work, you're on your own.**
 
 ---
 
 ## Enforcement
 
-The Operator enforces this Code of Conduct. Enforcement is unilateral, final, and not subject to committee review.
+### Who Enforces
+The Operator (Lackadaisical Security) has final say. Enforcement is based on evidentiary merit and research integrity — not popularity, credentials, or institutional pressure.
 
-There is no ombudsman. There is no ticketing system. There is no 30-day warning period.
+### How to Report Issues
+- **Research errors / corrections**: Open a GitHub issue with evidence, methodology, and sourcing
+- **License violations / misattribution**: Email lackadaisicalresearch@pm.me with documentation
+- **Code of conduct violations**: Email lackadaisicalresearch@pm.me with evidence
+- **Potential plagiarism**: Email with documentation and source comparison
 
-You either operate within these norms or you don't. If you don't, you're removed.
+### Consequences
+1. **First offence**: Warning via issue comment or email — correct the problem
+2. **Second offence**: Temporary ban (30–90 days depending on severity)
+3. **Third offence / Severe violations**: Permanent ban from the project
+4. **Fraud / deliberate misattribution**: Permanent ban, public disclosure, legal action if applicable
 
----
-
-## Summary
-
-```
-if (you_produce_good_work) {
-    you_are_welcome_here();
-} else if (you_produce_nothing) {
-    lurk_or_leave();
-} else if (you_produce_bad_faith) {
-    banned();
-}
-```
+### Appeals
+If you think a ban was applied unfairly, email with a technical explanation and evidence. If you can't defend your position with data and logic, the ban stands.
 
 ---
 
-**Signed,**
-**Lackadaisical Security - The Operator**
-*Breaking the Unbreakable Since 2025*
+## Attribution
 
-> *"The ghost doesn't care about your credentials. The ghost cares about the work."*
+This Code of Conduct is **NOT** based on the Contributor Covenant or any corporate template.
+
+This is based on:
+- **Hacker Ethic** (Steven Levy, 1984)
+- **Old-school open source** (Linux kernel, BSD, OpenBSD culture)
+- **Meritocratic principles** of serious technical communities
+- **Leet-era norms** from the demoscene and early internet research culture
+- **Responsible disclosure standards** applied to academic and research work
+
+---
+
+## Philosophy: Why This Approach?
+
+The Linear B Decipherment Project resolves 70 years of open questions in Bronze Age epigraphy. The stakes of getting it wrong are real:
+- Bad readings corrupt downstream translation of actual historical records
+- Unfounded claims can propagate through academic citations for decades
+- Institutional bias has already kept these signs "unresolvable" for three generations of researchers — we don't need more of that here
+- Methodology failures provide false confidence in broken analyses
+
+**We need contributors who:**
+- Take evidence standards seriously
+- Can handle direct technical criticism without needing reassurance
+- Prioritise reproducibility and transparency
+- Understand the difference between a strong correlation and a wishful one
+- Can defend their readings with methodology and data, not credentials and vibes
+
+If you're looking for a space where a three-vector reading with no archaeological grounding gets praised, this isn't it. If you want to advance the decipherment of a 3,000-year-old script with people who actually care about getting it right, welcome aboard.
+
+---
+
+## Contact
+
+**Maintainer**: Lackadaisical Security — The Operator
+**Email**: lackadaisicalresearch@pm.me
+**XMPP+OTR**: thelackadaisicalone@xmpp.jp
+**Website**: https://lackadaisical-security.com
+**GitHub**: https://github.com/Lackadaisical-Security
+
+---
+
+**TL;DR**: Show your work. Cite your sources. Don't fake it. Don't steal it. No politics, just solid ancient script research.
+
+**Copyright © 2025–2026 Lackadaisical Security. All rights reserved.**
