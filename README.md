@@ -223,7 +223,7 @@ This project closes that gap using systematic mega-correlation across 36 deciphe
 |-----------|------|-------------|--------|
 | **Champollion** | 1822 | 1 (Egyptian) | Rosetta Stone trilingual |
 | **Ventris** | 1952 | 1 (Linear B) | Grid analysis + Cypriot |
-| **The Operator** | 2025–2026 | **75–110+** | Systematic mega-correlation across script families |
+| **The Operator** | 2025–2026 | **36 (this project); 75–110+ across all decipherment projects** | Systematic mega-correlation across script families |
 
 ### The Mycenaean Scribal Network
 
